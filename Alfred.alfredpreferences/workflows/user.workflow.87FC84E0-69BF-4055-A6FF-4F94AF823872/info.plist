@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>0A051BFF-6127-42CC-AF05-FE8686C45644</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>03D0DC3C-57E1-4EDC-BA1E-5EDC9F8EB86E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Launch Safari window in chrome</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>49</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>Space</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>DE9BCF2A-1194-432E-8592-1A8A83F22D56</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  (*
+Opens current url of foremost safari window in Chrome
+*)
+
+tell application "Safari"
+	activate
+	set sameURL to URL of document 1
+end tell
+tell application "Google Chrome"
+	open location (sameURL)
+	activate
+end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>03D0DC3C-57E1-4EDC-BA1E-5EDC9F8EB86E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>flash free</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Flash free</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0A051BFF-6127-42CC-AF05-FE8686C45644</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>03D0DC3C-57E1-4EDC-BA1E-5EDC9F8EB86E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>610</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>0A051BFF-6127-42CC-AF05-FE8686C45644</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>DE9BCF2A-1194-432E-8592-1A8A83F22D56</key>
+		<dict>
+			<key>xpos</key>
+			<integer>245</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

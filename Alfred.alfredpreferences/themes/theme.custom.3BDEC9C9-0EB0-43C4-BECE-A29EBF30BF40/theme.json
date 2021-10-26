@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#333433FF",
+        "font" : "System",
+        "color" : "#DEDEDE65"
+      },
+      "shortcut" : {
+        "size" : 25,
+        "colorSelected" : "#343434FF",
+        "font" : "System",
+        "color" : "#F82A81FF"
+      },
+      "backgroundSelected" : "#F82A81E4",
+      "text" : {
+        "size" : 23,
+        "colorSelected" : "#343434FF",
+        "font" : "System",
+        "color" : "#DEDEDEE5"
+      },
+      "iconPaddingHorizontal" : 9,
+      "paddingVertical" : 14,
+      "iconSize" : 46
+    },
+    "search" : {
+      "paddingVertical" : 10,
+      "background" : "#34343437",
+      "spacing" : 0,
+      "text" : {
+        "size" : 30,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Fira Code",
+        "color" : "#DEDEDEFF"
+      },
+      "backgroundSelected" : "#480069E4"
+    },
+    "window" : {
+      "color" : "#343434DB",
+      "paddingHorizontal" : 0,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 20,
+      "roundness" : 3,
+      "paddingVertical" : 0
+    },
+    "credit" : "Rodrigo García",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#5945B5FF",
+      "thickness" : 9
+    },
+    "name" : "roganoalien-dark"
+  }
+}

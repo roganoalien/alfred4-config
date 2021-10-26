@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#EFF0F3FF",
+        "font" : "Google Sans",
+        "color" : "#979BA0FF"
+      },
+      "shortcut" : {
+        "size" : 12,
+        "colorSelected" : "#FEFFFE6B",
+        "font" : "Google Sans",
+        "color" : "#969A9FFF"
+      },
+      "backgroundSelected" : "#2F3135FF",
+      "text" : {
+        "size" : 15,
+        "colorSelected" : "#EFF0F3FF",
+        "font" : "Google Sans",
+        "color" : "#E6E9ECFF"
+      },
+      "iconPaddingHorizontal" : 16,
+      "roundness" : 12,
+      "paddingVertical" : 16,
+      "iconSize" : 32
+    },
+    "search" : {
+      "backgroundSelected" : "#89B3F6FF",
+      "paddingHorizontal" : 16,
+      "spacing" : 16,
+      "text" : {
+        "size" : 22,
+        "colorSelected" : "#FEFFFEFF",
+        "font" : "Google Sans",
+        "color" : "#E5E8EBFF"
+      },
+      "background" : "#2F3135FF",
+      "roundness" : 28,
+      "paddingVertical" : 10
+    },
+    "window" : {
+      "color" : "#1F2125FF",
+      "paddingHorizontal" : 14,
+      "width" : 666,
+      "borderPadding" : 0,
+      "borderColor" : "#FFFFFFD8",
+      "blur" : 0,
+      "roundness" : 20,
+      "paddingVertical" : 16
+    },
+    "credit" : "Chris Messina",
+    "separator" : {
+      "color" : "#2F313500",
+      "thickness" : 1
+    },
+    "scrollbar" : {
+      "color" : "#4184F4FF",
+      "thickness" : 2
+    },
+    "name" : "Google (Dark)"
+  }
+}
