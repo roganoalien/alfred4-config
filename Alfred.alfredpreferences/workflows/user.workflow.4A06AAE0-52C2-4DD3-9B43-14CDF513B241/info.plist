@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.rauluranga.open-folder-in-iTerm2-nightly-build</string>
+	<key>connections</key>
+	<dict>
+		<key>86048A3E-8F56-4B36-9F42-F5D4CB4709CC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E74D703-B863-4E5C-B4F7-85B6D6B6597D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Raúl Uranga</string>
+	<key>description</key>
+	<string>Pushes the frontmost Finder window's directory to iTerm2's directory stack</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open Folder in ITerm2</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>terminal</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open folder in iTerm2</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>86048A3E-8F56-4B36-9F42-F5D4CB4709CC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+        if length of (q as string) is greater than 0 then
+                set isPush to true
+        else
+                set isPush to false
+        end if
+        tell application "Finder"
+                try
+                        set _cwd to POSIX path of ((folder of (front window)) as alias)
+                on error
+                        set _cwd to POSIX path of (path to home folder as alias)
+                end try
+        end tell
+		
+		if application "iTerm" is running then
+    			tell application "iTerm" 
+				activate
+				tell current session of last window
+			   		write text "pushd \"" &amp; _cwd &amp; "\""
+		       	end tell
+			end tell
+		else
+			tell application "iTerm" 
+				activate
+				tell current session of last window
+			   		 write text "cd \"" &amp; _cwd &amp; "\""
+				end tell
+			end tell
+		end if
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>3E74D703-B863-4E5C-B4F7-85B6D6B6597D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>3E74D703-B863-4E5C-B4F7-85B6D6B6597D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>90</real>
+		</dict>
+		<key>86048A3E-8F56-4B36-9F42-F5D4CB4709CC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>85</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/rauluranga/alfred-cd-to-iterm2-latest</string>
+</dict>
+</plist>

@@ -2098,7 +2098,7 @@ Caching of the secret/item names (not the secret values itself) are cached so th
 		<key>OUTPUT_FOLDER</key>
 		<string></string>
 		<key>PATH</key>
-		<string>/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/bin:/usr/sbin:/usr/local/bin</string>
+		<string>/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/bin/bw:</string>
 		<key>REORDERING_DISABLED</key>
 		<string>true</string>
 		<key>SERVER_URL</key>

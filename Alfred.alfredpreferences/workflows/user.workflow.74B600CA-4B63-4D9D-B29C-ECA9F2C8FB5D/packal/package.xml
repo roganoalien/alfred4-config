@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>iCloud Passwords</name>
+  <version>1.0.2</version>
+  <bundle>org.leolabs.icloud-passwords</bundle>
+  <updated>1637886940</updated>
+  <file>icloud-passwords.alfredworkflow</file>
+</workflow>
