@@ -8,11 +8,21 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>031FA59C-AAA8-4D4D-9B07-E0AD15197ABA</key>
+		<key>050F9097-BBFD-4CE1-B4C7-3DCBCED40E95</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EEA7178B-3919-4416-B97D-7982838C05A3</string>
+				<string>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE361485-4690-4A38-9CE4-F4730B9B0E29</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,11 +31,76 @@
 				<false/>
 			</dict>
 		</array>
-		<key>694225AD-E3EF-4986-8863-120B512DEDEC</key>
+		<key>246144CB-1393-4C36-90EA-88299D19970F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>FC70D6B0-ECD7-4A47-A883-75A4F62F617C</string>
+				<string>C5106487-A5D8-4FB2-914A-87477DB4237F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BD71E648-75F9-4784-A9FA-3FB9CAC41684</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>64A0B477-9DDF-46AB-8E12-7E901AE685CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76554856-CC52-4CD9-A096-C1F9E5E919D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7BD7EBFF-6C7F-4156-9920-55DCE8EAE81C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>957BB284-E094-4A24-8698-290FA0D8D559</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE361485-4690-4A38-9CE4-F4730B9B0E29</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>96C94060-9C20-48B5-865A-DBC1342B884A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>246144CB-1393-4C36-90EA-88299D19970F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -35,7 +110,105 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>3C0C6D2C-AA90-4ADD-A3B4-0A3F7E647B10</string>
+				<string>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9D66CC2B-5CCE-4695-9F2D-8BD118A2D81E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>246144CB-1393-4C36-90EA-88299D19970F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A4B8D32E-C472-46EE-89EE-451ACA0F922F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>76554856-CC52-4CD9-A096-C1F9E5E919D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B8BA438D-E592-42C6-A1D5-6F30D77384B2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0B05FC30-BC40-4C3C-A21D-669571E9B16B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CAA8B91A-78B2-41D5-8DCA-44AF05795037</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0B05FC30-BC40-4C3C-A21D-669571E9B16B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CE361485-4690-4A38-9CE4-F4730B9B0E29</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>83507BEB-CF34-4020-9904-B6EFA89B4397</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F4D4D90D-550E-4EC6-9522-F78AB8F1EB51</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>76554856-CC52-4CD9-A096-C1F9E5E919D3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -58,6 +231,231 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>codium</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Open in VSCodium</string>
+				<key>title</key>
+				<string>Open in VsCodium</string>
+				<key>types</key>
+				<array>
+					<string>com.netscape.javascript-source</string>
+					<string>dyn.ah62d4rv4ge81g25xsq</string>
+					<string>dyn.ah62d4rv4ge81k652</string>
+					<string>public.folder</string>
+					<string>public.html</string>
+					<string>public.json</string>
+					<string>public.mpeg-2-transport-stream</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>9D66CC2B-5CCE-4695-9F2D-8BD118A2D81E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/VSCodium.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>C5106487-A5D8-4FB2-914A-87477DB4237F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>246144CB-1393-4C36-90EA-88299D19970F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/iTerm.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>BD71E648-75F9-4784-A9FA-3FB9CAC41684</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>codium both</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Open in VSCodium</string>
+				<key>title</key>
+				<string>Open in both codium and iTerm2</string>
+				<key>types</key>
+				<array>
+					<string>com.netscape.javascript-source</string>
+					<string>dyn.ah62d4rv4ge81g25xsq</string>
+					<string>dyn.ah62d4rv4ge81k652</string>
+					<string>public.folder</string>
+					<string>public.html</string>
+					<string>public.json</string>
+					<string>public.mpeg-2-transport-stream</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>96C94060-9C20-48B5-865A-DBC1342B884A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/PhpStorm.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>0B05FC30-BC40-4C3C-A21D-669571E9B16B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string>/Applications/Visual Studio Code.app</string>
 				<key>sourcefile</key>
@@ -66,9 +464,85 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>EEA7178B-3919-4416-B97D-7982838C05A3</string>
+			<string>7BD7EBFF-6C7F-4156-9920-55DCE8EAE81C</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>code both</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Folder will be opened in VSC</string>
+				<key>title</key>
+				<string>Open in both VSC and iTerm2</string>
+				<key>types</key>
+				<array>
+					<string>public.folder</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>F4D4D90D-550E-4EC6-9522-F78AB8F1EB51</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -134,7 +608,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
-			<string>031FA59C-AAA8-4D4D-9B07-E0AD15197ABA</string>
+			<string>A4B8D32E-C472-46EE-89EE-451ACA0F922F</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -142,16 +616,24 @@
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/iTerm.app</string>
+				<string>/Applications/Sublime Text.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>FC70D6B0-ECD7-4A47-A883-75A4F62F617C</string>
+			<string>83507BEB-CF34-4020-9904-B6EFA89B4397</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>76554856-CC52-4CD9-A096-C1F9E5E919D3</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -180,6 +662,18 @@
 					</dict>
 					<dict>
 						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
 						<string>kMDItemFinderComment</string>
 						<key>not</key>
 						<false/>
@@ -194,7 +688,7 @@
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>ct</string>
+				<string>iterm</string>
 				<key>limit</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -204,9 +698,9 @@
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Opens folder in VSC and iTerm</string>
+				<string></string>
 				<key>title</key>
-				<string>iTerm/VSC</string>
+				<string>Open in iTerm2</string>
 				<key>types</key>
 				<array>
 					<string>public.folder</string>
@@ -217,64 +711,506 @@
 			<key>type</key>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
-			<string>694225AD-E3EF-4986-8863-120B512DEDEC</string>
+			<string>64A0B477-9DDF-46AB-8E12-7E901AE685CA</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string>/Applications/Visual Studio Code.app</string>
-				<key>sourcefile</key>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>storm</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
 				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Open in PHP Storm</string>
+				<key>title</key>
+				<string>open in Php Storm</string>
+				<key>types</key>
+				<array>
+					<string>com.netscape.javascript-source</string>
+					<string>dyn.ah62d4rv4ge81g25xsq</string>
+					<string>dyn.ah62d4rv4ge81k652</string>
+					<string>public.folder</string>
+					<string>public.html</string>
+					<string>public.json</string>
+					<string>public.mpeg-2-transport-stream</string>
+				</array>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
+			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
-			<string>3C0C6D2C-AA90-4ADD-A3B4-0A3F7E647B10</string>
+			<string>B8BA438D-E592-42C6-A1D5-6F30D77384B2</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>subl both</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Open in Sublime Text</string>
+				<key>title</key>
+				<string>open in both Sublime Text and iTerm2</string>
+				<key>types</key>
+				<array>
+					<string>com.netscape.javascript-source</string>
+					<string>dyn.ah62d4rv4ge81g25xsq</string>
+					<string>dyn.ah62d4rv4ge81k652</string>
+					<string>public.folder</string>
+					<string>public.html</string>
+					<string>public.json</string>
+					<string>public.mpeg-2-transport-stream</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>050F9097-BBFD-4CE1-B4C7-3DCBCED40E95</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>storm both</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Open in PHP Storm</string>
+				<key>title</key>
+				<string>open in both Php Storm and iTerm2</string>
+				<key>types</key>
+				<array>
+					<string>com.netscape.javascript-source</string>
+					<string>dyn.ah62d4rv4ge81g25xsq</string>
+					<string>dyn.ah62d4rv4ge81k652</string>
+					<string>public.folder</string>
+					<string>public.html</string>
+					<string>public.json</string>
+					<string>public.mpeg-2-transport-stream</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>CAA8B91A-78B2-41D5-8DCA-44AF05795037</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>CE361485-4690-4A38-9CE4-F4730B9B0E29</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>subl</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Open in Sublime Text</string>
+				<key>title</key>
+				<string>open in Sublime Text</string>
+				<key>types</key>
+				<array>
+					<string>com.netscape.javascript-source</string>
+					<string>dyn.ah62d4rv4ge81g25xsq</string>
+					<string>dyn.ah62d4rv4ge81k652</string>
+					<string>public.folder</string>
+					<string>public.html</string>
+					<string>public.json</string>
+					<string>public.mpeg-2-transport-stream</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>957BB284-E094-4A24-8698-290FA0D8D559</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string>The workflow was made as a practice and trying to improve the way I was opening from scratch projects in both iTermn and VSC. Hope it helps more people!</string>
 	<key>uidata</key>
 	<dict>
-		<key>031FA59C-AAA8-4D4D-9B07-E0AD15197ABA</key>
+		<key>050F9097-BBFD-4CE1-B4C7-3DCBCED40E95</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
 			<key>xpos</key>
-			<integer>105</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>155</integer>
+			<integer>535</integer>
 		</dict>
-		<key>3C0C6D2C-AA90-4ADD-A3B4-0A3F7E647B10</key>
+		<key>0B05FC30-BC40-4C3C-A21D-669571E9B16B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>375</integer>
+			<integer>730</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>246144CB-1393-4C36-90EA-88299D19970F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>205</integer>
+			<key>ypos</key>
+			<integer>90</integer>
+		</dict>
+		<key>4B26FC1D-4D01-4A54-AE93-F2F1B658DD23</key>
+		<dict>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>245</integer>
+		</dict>
+		<key>64A0B477-9DDF-46AB-8E12-7E901AE685CA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<integer>10</integer>
 			<key>ypos</key>
 			<integer>430</integer>
 		</dict>
-		<key>694225AD-E3EF-4986-8863-120B512DEDEC</key>
+		<key>76554856-CC52-4CD9-A096-C1F9E5E919D3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<integer>245</integer>
 			<key>ypos</key>
 			<integer>360</integer>
 		</dict>
-		<key>EEA7178B-3919-4416-B97D-7982838C05A3</key>
+		<key>7BD7EBFF-6C7F-4156-9920-55DCE8EAE81C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>375</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>220</integer>
 		</dict>
-		<key>FC70D6B0-ECD7-4A47-A883-75A4F62F617C</key>
+		<key>83507BEB-CF34-4020-9904-B6EFA89B4397</key>
 		<dict>
 			<key>xpos</key>
-			<integer>375</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>295</integer>
+			<integer>330</integer>
+		</dict>
+		<key>957BB284-E094-4A24-8698-290FA0D8D559</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>640</integer>
+		</dict>
+		<key>96C94060-9C20-48B5-865A-DBC1342B884A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+		<key>9D66CC2B-5CCE-4695-9F2D-8BD118A2D81E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>A4B8D32E-C472-46EE-89EE-451ACA0F922F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>325</integer>
+		</dict>
+		<key>B8BA438D-E592-42C6-A1D5-6F30D77384B2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>450</integer>
+		</dict>
+		<key>BD71E648-75F9-4784-A9FA-3FB9CAC41684</key>
+		<dict>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+		<key>C5106487-A5D8-4FB2-914A-87477DB4237F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>CAA8B91A-78B2-41D5-8DCA-44AF05795037</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>575</integer>
+		</dict>
+		<key>CE361485-4690-4A38-9CE4-F4730B9B0E29</key>
+		<dict>
+			<key>xpos</key>
+			<integer>205</integer>
+			<key>ypos</key>
+			<integer>615</integer>
+		</dict>
+		<key>F4D4D90D-550E-4EC6-9522-F78AB8F1EB51</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>220</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>

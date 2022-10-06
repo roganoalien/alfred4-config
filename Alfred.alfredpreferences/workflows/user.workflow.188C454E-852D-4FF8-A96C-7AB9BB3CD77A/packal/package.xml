@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Vercel Workflow</name>
+  <version>1.0.1</version>
+  <bundle>dev.skydiver.alfred.vercel</bundle>
+  <updated>1642383093</updated>
+  <file>vercel-1.0.1.alfredworkflow</file>
+</workflow>

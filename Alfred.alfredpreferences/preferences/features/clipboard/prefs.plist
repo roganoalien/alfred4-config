@@ -7,11 +7,13 @@
 		<key>key</key>
 		<integer>49</integer>
 		<key>mod</key>
-		<integer>1835008</integer>
+		<integer>1572864</integer>
 		<key>string</key>
 		<string> </string>
 	</dict>
 	<key>persistFor</key>
 	<integer>0</integer>
+	<key>snippetKeyword</key>
+	<string>@</string>
 </dict>
 </plist>

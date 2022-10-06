@@ -70,7 +70,7 @@
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>Project Manager</string>
 	<key>objects</key>
@@ -200,11 +200,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>49</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1966080</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>Space</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -248,7 +248,7 @@
 		<key>94F8A8DC-9518-4612-8C64-3736BA9BC9D7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>285</integer>
 			<key>ypos</key>
 			<integer>230</integer>
 		</dict>
@@ -262,9 +262,9 @@
 		<key>FBC8069B-1615-4CD3-BA60-146A434156A1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>85</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>420</integer>
 		</dict>
 	</dict>
 	<key>variables</key>

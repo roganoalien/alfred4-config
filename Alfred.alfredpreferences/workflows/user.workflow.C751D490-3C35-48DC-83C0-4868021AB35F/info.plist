@@ -6,24 +6,11 @@
 	<string>de.jandavid.alfred.gitignore</string>
 	<key>connections</key>
 	<dict>
-		<key>1E9CFBDB-EF9A-4962-84EE-30E64D3DC19C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>956B0785-0E0D-4251-8821-5E3137D71B6E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>487A8098-1037-4523-BCA6-B04539B70A80</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1E9CFBDB-EF9A-4962-84EE-30E64D3DC19C</string>
+				<string>A3F1E574-9F76-4644-983B-30B4B8FBB271</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -32,11 +19,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>767B4355-2520-4300-BD21-C7332DB7206D</key>
+		<key>54D11EF7-65A2-44E8-8507-02205AE16A49</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F1CE1DB1-D0C1-4785-BED1-4DDB5CF06EBF</string>
+				<string>9AF85DA5-C8A8-4D7F-910A-0E60993B65E9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -45,11 +32,23 @@
 				<false/>
 			</dict>
 		</array>
-		<key>F1CE1DB1-D0C1-4785-BED1-4DDB5CF06EBF</key>
+		<key>A3F1E574-9F76-4644-983B-30B4B8FBB271</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A0BD3526-73B6-4325-A7CC-FF4CDFCCD5A0</string>
+				<string>B0D2BCBD-0206-4139-A0E0-0C166D780E9F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>28F83664-6192-4AF1-B841-B4816D74A72B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>54D11EF7-65A2-44E8-8507-02205AE16A49</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -72,16 +71,33 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>B0D2BCBD-0206-4139-A0E0-0C166D780E9F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
+				<integer>1</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>116</integer>
+				<integer>102</integer>
 				<key>keyword</key>
 				<string>gitignore</string>
 				<key>queuedelaycustom</key>
@@ -93,15 +109,15 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Fetching templates from gitignore.io...</string>
-				<key>script</key>
-				<string>python gitignore-input.py {query}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
 				<string></string>
+				<key>script</key>
+				<string>./alfred-gitignore $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>alfred-gitignore</string>
 				<key>subtext</key>
-				<string>Combine multiple templates to a single .gitignore file</string>
+				<string>Select templates and merge them into a single .gitignore file</string>
 				<key>title</key>
 				<string>Build a .gitignore file from templates</string>
 				<key>type</key>
@@ -114,31 +130,56 @@
 			<key>uid</key>
 			<string>487A8098-1037-4523-BCA6-B04539B70A80</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string># Builds the .gitignore file and opens it with the default text editor
-python gitignore-build.py {query}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^/.+</string>
+						<key>outputlabel</key>
+						<string>open file</string>
+						<key>uid</key>
+						<string>28F83664-6192-4AF1-B841-B4816D74A72B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>copy to clipboard</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>1E9CFBDB-EF9A-4962-84EE-30E64D3DC19C</string>
+			<string>A3F1E574-9F76-4644-983B-30B4B8FBB271</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>54D11EF7-65A2-44E8-8507-02205AE16A49</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -150,140 +191,67 @@ python gitignore-build.py {query}</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>{query}</string>
+				<string>Press ⌘V to paste the contents of the .gitignore file.</string>
 				<key>title</key>
-				<string>Build complete</string>
+				<string>Copied to clipboard</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>956B0785-0E0D-4251-8821-5E3137D71B6E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string># Downloads the templates from GitHub
-python gitignore-update.py</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>F1CE1DB1-D0C1-4785-BED1-4DDB5CF06EBF</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Update complete</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>A0BD3526-73B6-4325-A7CC-FF4CDFCCD5A0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>gitignore-update</string>
-				<key>subtext</key>
-				<string>Download the latest templates from GitHub...</string>
-				<key>text</key>
-				<string>Update templates</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>767B4355-2520-4300-BD21-C7332DB7206D</string>
+			<string>9AF85DA5-C8A8-4D7F-910A-0E60993B65E9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Please check the workflow’s documentation on GitHub:
+	<string>This is an Alfred workflow that lets users quickly combine multiple .gitignore templates into a single file. It works offline, has suggestions and autocomplete, and works with Alfred 3 and 4.
 
-https://github.com/jdno/alfred2-gitignore
+The workflow ships with a precompiled but unsigned executable. When running the workflow for the first time, macOS will show a warning. Go to 'System Preferences' and then 'Security &amp; Privacy', and allow alfred-gitignore to run.
 
-You can find information on how to install and use the workflow there. Also, this is the place to report bugs or problems.
-
-Thanks for using my workflow!
-
-Have a great day. :)</string>
+https://github.com/jdno/alfred-gitignore/</string>
 	<key>uidata</key>
 	<dict>
-		<key>1E9CFBDB-EF9A-4962-84EE-30E64D3DC19C</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<real>10</real>
-		</dict>
 		<key>487A8098-1037-4523-BCA6-B04539B70A80</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>125</integer>
 		</dict>
-		<key>767B4355-2520-4300-BD21-C7332DB7206D</key>
+		<key>54D11EF7-65A2-44E8-8507-02205AE16A49</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<real>120</real>
+			<integer>180</integer>
 		</dict>
-		<key>956B0785-0E0D-4251-8821-5E3137D71B6E</key>
+		<key>9AF85DA5-C8A8-4D7F-910A-0E60993B65E9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>530</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>180</integer>
 		</dict>
-		<key>A0BD3526-73B6-4325-A7CC-FF4CDFCCD5A0</key>
+		<key>A3F1E574-9F76-4644-983B-30B4B8FBB271</key>
 		<dict>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<real>120</real>
+			<integer>145</integer>
 		</dict>
-		<key>F1CE1DB1-D0C1-4785-BED1-4DDB5CF06EBF</key>
+		<key>B0D2BCBD-0206-4139-A0E0-0C166D780E9F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<real>120</real>
+			<integer>65</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>2.1.1</string>
 	<key>webaddress</key>
-	<string>http://jandavid.de</string>
+	<string>http://github.com/jdno/alfred-gitignore</string>
 </dict>
 </plist>

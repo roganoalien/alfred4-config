@@ -6,5 +6,17 @@
 	<true/>
 	<key>ejectallKeywordEnabled</key>
 	<true/>
+	<key>emptytrashConfirm</key>
+	<true/>
+	<key>restartConfirm</key>
+	<true/>
+	<key>shutdownConfirm</key>
+	<true/>
+	<key>volumedownKeywordEnabled</key>
+	<false/>
+	<key>volumemuteKeywordEnabled</key>
+	<false/>
+	<key>volumeupKeywordEnabled</key>
+	<false/>
 </dict>
 </plist>
