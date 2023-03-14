@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import { fs } from \"fs\";",
+    "uid" : "95B8B736-CCED-4FE9-8066-F8093FEA435E",
+    "name" : "Import",
+    "keyword" : "imd"
+  }
+}

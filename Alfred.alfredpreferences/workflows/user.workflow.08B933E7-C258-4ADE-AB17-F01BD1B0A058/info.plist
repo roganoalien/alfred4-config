@@ -8,19 +8,6 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>3D8D99D1-FB8C-4A49-9BE1-D7696226A88D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>83F5D4DF-2F64-484A-BECD-7436842D4BF6</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>63611A99-79C1-437F-9440-06BD78E1A17F</key>
 		<array>
 			<dict>
@@ -34,8 +21,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>83F5D4DF-2F64-484A-BECD-7436842D4BF6</key>
-		<array/>
 		<key>AD06006F-71F6-4731-9942-D0697E95329A</key>
 		<array>
 			<dict>
@@ -53,7 +38,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3D8D99D1-FB8C-4A49-9BE1-D7696226A88D</string>
+				<string>F69A44DF-57DE-4713-BACA-8EDFBFE14FF6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -74,60 +59,8 @@
 				<false/>
 			</dict>
 		</array>
-		<key>CEFB17DA-D9A1-4560-B8D8-CF92739E44B0</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>D992695F-A88E-486B-8E22-754407A253E8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D992695F-A88E-486B-8E22-754407A253E8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DFE8406F-AF67-43A5-A92F-DDBD0751DCFD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>973A5192-649C-4176-97F2-22217DB6D76C</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>DFE8406F-AF67-43A5-A92F-DDBD0751DCFD</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5B925DAF-4AF4-418D-A463-E927C217CDA7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>FE448172-1558-498A-8144-05EC668C39A1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CEFB17DA-D9A1-4560-B8D8-CF92739E44B0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<key>F69A44DF-57DE-4713-BACA-8EDFBFE14FF6</key>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Caleb Evans</string>
@@ -142,40 +75,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "$event_conference_url"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{var:event_conference_url}</string>
-				<key>utf8</key>
-				<true/>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>3D8D99D1-FB8C-4A49-9BE1-D7696226A88D</string>
+			<string>F69A44DF-57DE-4713-BACA-8EDFBFE14FF6</string>
 			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{var:event_conference_url}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>83F5D4DF-2F64-484A-BECD-7436842D4BF6</string>
-			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -237,9 +155,9 @@
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
-						<integer>4</integer>
+						<integer>1</integer>
 						<key>matchstring</key>
-						<string>^https?://</string>
+						<string></string>
 						<key>outputlabel</key>
 						<string>has url</string>
 						<key>uid</key>
@@ -248,6 +166,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>has no url</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -292,195 +212,181 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Result list updated with your latest calendar</string>
-				<key>title</key>
-				<string>Open Conference URL</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>DFE8406F-AF67-43A5-A92F-DDBD0751DCFD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>refresh_cache</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>FE448172-1558-498A-8144-05EC668C39A1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>conf</string>
-				<key>leftcursor</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.showalfred</string>
-			<key>uid</key>
-			<string>5B925DAF-4AF4-418D-A463-E927C217CDA7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/bin/python -m ocu.refresh_cache "$@"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CEFB17DA-D9A1-4560-B8D8-CF92739E44B0</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{query}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>True</string>
-						<key>outputlabel</key>
-						<string>has updates</string>
-						<key>uid</key>
-						<string>973A5192-649C-4176-97F2-22217DB6D76C</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>no updates</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>D992695F-A88E-486B-8E22-754407A253E8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>To use, simply type the `conf` command into Alfred, and you will see a list of upcoming calendar events. It does this by including all events within +/- 20 minutes of your system's current time, so even if you're running late to a meeting, the logical event will show.
+
+The workflow also accounts for timezones and Daylight Saving Time (DST). All times are displayed in your system's local timezone.</string>
 	<key>uidata</key>
 	<dict>
 		<key>09CA121B-D8B4-4ABF-AB14-039EE9CA5965</key>
 		<dict>
 			<key>xpos</key>
-			<integer>600</integer>
+			<real>600</real>
 			<key>ypos</key>
-			<integer>170</integer>
-		</dict>
-		<key>3D8D99D1-FB8C-4A49-9BE1-D7696226A88D</key>
-		<dict>
-			<key>xpos</key>
-			<integer>440</integer>
-			<key>ypos</key>
-			<integer>40</integer>
-		</dict>
-		<key>5B925DAF-4AF4-418D-A463-E927C217CDA7</key>
-		<dict>
-			<key>xpos</key>
-			<integer>765</integer>
-			<key>ypos</key>
-			<integer>370</integer>
+			<real>170</real>
 		</dict>
 		<key>63611A99-79C1-437F-9440-06BD78E1A17F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<real>440</real>
 			<key>ypos</key>
-			<integer>170</integer>
-		</dict>
-		<key>83F5D4DF-2F64-484A-BECD-7436842D4BF6</key>
-		<dict>
-			<key>xpos</key>
-			<integer>600</integer>
-			<key>ypos</key>
-			<integer>40</integer>
+			<real>170</real>
 		</dict>
 		<key>AD06006F-71F6-4731-9942-D0697E95329A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<real>95</real>
 			<key>ypos</key>
-			<integer>95</integer>
+			<real>105</real>
 		</dict>
 		<key>CAD3A45C-8496-4F9C-9FD8-78677008FBA5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>265</real>
 			<key>ypos</key>
-			<integer>125</integer>
+			<real>125</real>
 		</dict>
-		<key>CEFB17DA-D9A1-4560-B8D8-CF92739E44B0</key>
+		<key>F69A44DF-57DE-4713-BACA-8EDFBFE14FF6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>440</real>
 			<key>ypos</key>
-			<integer>370</integer>
-		</dict>
-		<key>D992695F-A88E-486B-8E22-754407A253E8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>440</integer>
-			<key>ypos</key>
-			<integer>390</integer>
-		</dict>
-		<key>DFE8406F-AF67-43A5-A92F-DDBD0751DCFD</key>
-		<dict>
-			<key>xpos</key>
-			<integer>600</integer>
-			<key>ypos</key>
-			<integer>340</integer>
-		</dict>
-		<key>FE448172-1558-498A-8144-05EC668C39A1</key>
-		<dict>
-			<key>xpos</key>
-			<integer>90</integer>
-			<key>ypos</key>
-			<integer>370</integer>
+			<real>40</real>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>*.zoom.us, zoom.us, meet.google.com, hangouts.google.com, teams.microsoft.com, gotomeeting.com, *.gotomeeting.com, webex.com, *.webex.com, uberconference.com</string>
+				<key>placeholder</key>
+				<string>e.g. zoom.us,meet.google.com,teams.microsoft.com</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Comma-separated list of domain names representing which URLs to check within each calendar event</string>
+			<key>label</key>
+			<string>Conference Domains</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>conference_domains</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>e.g. General, Work, School</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Comma-separated list of calendar names for which to fetch events. If this field is blank, all calendars will be implied.</string>
+			<key>label</key>
+			<string>Calendars</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>calendar_names</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>20</string>
+				<key>placeholder</key>
+				<string>e.g. 30</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Show events whose start time is within this number of minutes</string>
+			<key>label</key>
+			<string>Time Threshold</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>event_time_threshold_mins</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Bypass browser when opening Zoom links</string>
+			</dict>
+			<key>description</key>
+			<string>Whether or not to open Zoom URLs directly in the Zoom application, rather than going through the browser first</string>
+			<key>label</key>
+			<string>Use Direct Zoom Links</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>use_direct_zoom</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Bypass browser when opening Microsoft Teams links</string>
+			</dict>
+			<key>description</key>
+			<string>Whether or not to open Teams URLs directly in the Microsoft Teams application, rather than going through the browser first</string>
+			<key>label</key>
+			<string>Use Direct Teams Links</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>use_direct_msteams</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>12-hour</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>12-Hour</string>
+						<string>12-hour</string>
+					</array>
+					<array>
+						<string>24-Hour</string>
+						<string>24-hour</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Whether to use 12-hour or 24-hour time for the displayed event times</string>
+			<key>label</key>
+			<string>Time System</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>time_system</string>
+		</dict>
+	</array>
 	<key>version</key>
-	<string>2.1.1</string>
+	<string>6.0.1</string>
 	<key>webaddress</key>
 	<string>calebevans.me</string>
 </dict>

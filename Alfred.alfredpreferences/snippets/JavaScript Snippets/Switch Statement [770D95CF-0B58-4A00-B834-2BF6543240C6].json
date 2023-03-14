@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "switch(var) {\n  case \"CASE\":\n    break;\n  default:\n    break;\n}",
+    "uid" : "770D95CF-0B58-4A00-B834-2BF6543240C6",
+    "name" : "Switch Statement",
+    "keyword" : "switch"
+  }
+}

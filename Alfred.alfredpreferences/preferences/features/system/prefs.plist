@@ -8,6 +8,8 @@
 	<true/>
 	<key>emptytrashConfirm</key>
 	<true/>
+	<key>logoutConfirm</key>
+	<true/>
 	<key>restartConfirm</key>
 	<true/>
 	<key>shutdownConfirm</key>

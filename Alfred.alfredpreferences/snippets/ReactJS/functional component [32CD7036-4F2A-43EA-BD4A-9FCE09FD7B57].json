@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "const ComponentName = ()=>{\n\treturn <div>ComponentName<\/div>;\n}\n\nexport default ComponentName;",
+    "uid" : "32CD7036-4F2A-43EA-BD4A-9FCE09FD7B57",
+    "name" : "functional component",
+    "keyword" : "fc"
+  }
+}

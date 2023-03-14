@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "const packageName = require(\"packageName\");",
+    "uid" : "BDF25C8E-2C5B-4D4E-93DB-B42318AAF188",
+    "name" : "Require",
+    "keyword" : "req"
+  }
+}
