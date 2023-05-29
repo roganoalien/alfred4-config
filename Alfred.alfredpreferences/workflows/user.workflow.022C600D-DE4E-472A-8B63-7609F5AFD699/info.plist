@@ -74,6 +74,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>36E2A242-38E7-46DB-862B-D9EAB1D0634C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>904EE9AD-10E7-42B2-B2A6-3DFEE5412A49</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>37F77BB9-15D0-49B1-BE95-A71C489818EA</key>
 		<array>
 			<dict>
@@ -257,6 +270,19 @@
 			</dict>
 		</array>
 		<key>8D6B3FB2-3597-4111-997F-9B5E972F5861</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>412B728A-FDD5-4BB2-9AB0-CE24F88A6464</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>904EE9AD-10E7-42B2-B2A6-3DFEE5412A49</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -1225,6 +1251,106 @@ open $query -a ${editor//\\/\\\\}</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemOMUserTags</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<false/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemTitle</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>pycharm</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array>
+					<string>/Users</string>
+				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>find the file or folder you want to open</string>
+				<key>title</key>
+				<string>Open in PyCharm</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>36E2A242-38E7-46DB-862B-D9EAB1D0634C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>editor</key>
+					<string>PyCharm CE</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>904EE9AD-10E7-42B2-B2A6-3DFEE5412A49</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -1247,6 +1373,14 @@ open -a $terminal -e $query</string>
 			<string>2E0F7196-49E8-4332-A205-9C2AC5759AA7</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>0C540F98-6F90-46B7-948B-2F32DA41709F</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1327,14 +1461,6 @@ open -a $terminal -e $query</string>
 			<string>FCDABDD0-AB03-429D-8CB7-AAE640E7AB43</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>0C540F98-6F90-46B7-948B-2F32DA41709F</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1429,6 +1555,13 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
+		<key>36E2A242-38E7-46DB-862B-D9EAB1D0634C</key>
+		<dict>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>650</real>
+		</dict>
 		<key>37F77BB9-15D0-49B1-BE95-A71C489818EA</key>
 		<dict>
 			<key>xpos</key>
@@ -1439,9 +1572,9 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 		<key>3A2570B8-703C-4725-BBE0-5DB6AF98F19A</key>
 		<dict>
 			<key>xpos</key>
-			<real>225</real>
+			<real>220</real>
 			<key>ypos</key>
-			<real>725</real>
+			<real>815</real>
 		</dict>
 		<key>412B728A-FDD5-4BB2-9AB0-CE24F88A6464</key>
 		<dict>
@@ -1470,6 +1603,13 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 			<real>225</real>
 			<key>ypos</key>
 			<real>410</real>
+		</dict>
+		<key>904EE9AD-10E7-42B2-B2A6-3DFEE5412A49</key>
+		<dict>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>680</real>
 		</dict>
 		<key>9BD4BCA5-3F42-49F8-97F8-34B2636D1A6A</key>
 		<dict>
@@ -1574,7 +1714,7 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 			<key>xpos</key>
 			<real>45</real>
 			<key>ypos</key>
-			<real>695</real>
+			<real>785</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

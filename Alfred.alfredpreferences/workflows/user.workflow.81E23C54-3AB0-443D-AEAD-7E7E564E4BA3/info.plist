@@ -813,8 +813,23 @@ read -r -d '' plist_contents &lt;&lt;ENDPLIST
     &lt;key&gt;ProgramArguments&lt;/key&gt;
     &lt;array&gt;
         &lt;string&gt;/usr/bin/osascript&lt;/string&gt;
+        &lt;string&gt;-l&lt;/string&gt;
+        &lt;string&gt;JavaScript&lt;/string&gt;
         &lt;string&gt;-e&lt;/string&gt;
-        &lt;string&gt;if application id &amp;quot;com.runningwithcrayons.Alfred&amp;quot; is running then tell application id &amp;quot;com.runningwithcrayons.Alfred&amp;quot; to run trigger &amp;quot;data_update_detected&amp;quot; in workflow &amp;quot;${alfred_workflow_bundleid}&amp;quot;&lt;/string&gt;
+        &lt;string&gt;
+          function run(argv) {
+            try {
+              const alfred = Application(&amp;quot;com.runningwithcrayons.Alfred&amp;quot;)
+              if (alfred.running()) alfred.runTrigger(argv[1], { inWorkflow: argv[0] })
+            } catch {
+              const fileManager = $.NSFileManager.defaultManager
+              const plistFile = fileManager.homeDirectoryForCurrentUser.path.js + &amp;quot;/Library/LaunchAgents/&amp;quot; + argv[0] + &amp;quot;.plist&amp;quot;
+              fileManager.removeItemAtPathError(plistFile, undefined)
+            }
+          }
+        &lt;/string&gt;
+        &lt;string&gt;${alfred_workflow_bundleid}&lt;/string&gt;
+        &lt;string&gt;data_update_detected&lt;/string&gt;
     &lt;/array&gt;
     &lt;key&gt;WatchPaths&lt;/key&gt;
     &lt;array&gt;
@@ -1903,9 +1918,9 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 case "${action}" in
   'Open and Fill') echo -n 'openandfill';;
   'View in 1Password') echo -n 'view';;
-  'Copy Username') ./1password.js 'copy_by_label' 'username' "${itemID}";;
-  'Copy Password') ./1password.js 'copy_by_label' 'password' "${itemID}";;
-  'Copy OTP') ./1password.js 'copy_otp' "${itemID}";;
+  'Copy Username') ./1password.js 'copy_by_label' 'username' "${itemID}" "${vaultID}" "${accountID}";;
+  'Copy Password') ./1password.js 'copy_by_label' 'password' "${itemID}" "${vaultID}" "${accountID}";;
+  'Copy OTP') ./1password.js 'copy_otp' "${itemID}" "${vaultID}" "${accountID}";;
   *) echo "Invalid action: ${action}" &gt;&amp;2; exit 1
 esac</string>
 				<key>scriptargtype</key>
@@ -2284,11 +2299,17 @@ fi</string>
 
 ## Usage
 
-Interact with your 1Password items via the Search Keyword (default: `1p`). Set the actions for each &lt;kbd&gt;↩&lt;/kbd&gt; modifier in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+Interact with your 1Password items via the `1p` keyword.
 
 ![Alfred search for 1p](images/about/1p.png)
 
-Uncommon but useful actions, such as toggling vaults, can be accessed via `:1pextras`.
+* &lt;kbd&gt;↩&lt;/kbd&gt;: Open and Fill.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: View in 1Password.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy Password.
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy Username.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy One-Time Password
+
+Uncommon but useful actions, such as toggling vaults, can be accessed with `:1pextras`.
 
 ![Alfred search for :1pextras](images/about/1pextras.png)
 
@@ -2900,7 +2921,8 @@ To report a problem, run `!1pdiagnostic`.</string>
 				</array>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Actions to perform when pressing modifier keys.
+Changes come into effect on next cache update.</string>
 			<key>label</key>
 			<string>⇧↩</string>
 			<key>type</key>
@@ -2967,7 +2989,7 @@ To report a problem, run `!1pdiagnostic`.</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.3</string>
+	<string>2023.7</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/1password-workflow/</string>
 </dict>
