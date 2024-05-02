@@ -1493,7 +1493,7 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 	<key>variables</key>
 	<dict>
 		<key>audioswitch_path</key>
-		<string></string>
+		<string>/opt/homebrew/bin/switchaudiosource</string>
 		<key>external_device</key>
 		<string></string>
 		<key>headphones_device</key>

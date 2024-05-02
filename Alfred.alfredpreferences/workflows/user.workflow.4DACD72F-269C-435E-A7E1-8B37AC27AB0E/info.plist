@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>25b9262e-5a11-448a-89ea-9dbbe0402f24</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>3BED6A19-C0E8-4EBE-B1FE-ED3812A132B8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5E61C0FA-1282-4014-B7CD-967F5BA56F06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5E61C0FA-1282-4014-B7CD-967F5BA56F06</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8C94DC4E-86D8-45EA-B4A2-C438C21F24AC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>533DFE31-C9D8-4123-8D2A-2F4DD9BC4B4A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC2E62E7-E013-4208-9F69-235AF994704D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>672D6209-10A7-45B7-B19D-09BD40839404</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string>This workflow opens calendar with some specialized features</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Kalendar</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>tell application "Calendar"
+    activate
+    tell application "System Events"
+        tell process "Calendar"
+            click menu item "By Day" of menu "View" of menu bar 1
+            click menu item "Go to Today" of menu "View" of menu bar 1
+        end tell
+    end tell
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8C94DC4E-86D8-45EA-B4A2-C438C21F24AC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Open today","arg":"today","subtitle":"Opens calendar in today view"},{"title":"Open month","arg":"month","subtitle":"Opens the current month"},{"title":"Open by date","arg":"date","subtitle":"Open specific date in view by today"}]</string>
+				<key>keyword</key>
+				<string>kal</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>These are all the events calendar has</string>
+				<key>title</key>
+				<string>Choose the option you want</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>3BED6A19-C0E8-4EBE-B1FE-ED3812A132B8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>today</string>
+						<key>outputlabel</key>
+						<string>today</string>
+						<key>uid</key>
+						<string>533DFE31-C9D8-4123-8D2A-2F4DD9BC4B4A</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>month</string>
+						<key>outputlabel</key>
+						<string>month</string>
+						<key>uid</key>
+						<string>672D6209-10A7-45B7-B19D-09BD40839404</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>month</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>5E61C0FA-1282-4014-B7CD-967F5BA56F06</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>tell application "Calendar"
+    activate
+    tell application "System Events"
+        tell process "Calendar"
+            click menu item "Go to Today" of menu "View" of menu bar 1
+            click menu item "By Month" of menu "View" of menu bar 1
+        end tell
+    end tell
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>AC2E62E7-E013-4208-9F69-235AF994704D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>3BED6A19-C0E8-4EBE-B1FE-ED3812A132B8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>Lanza el keyword "kal" para mostrar las opciones que vienen: open today, open month y open by date</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>5E61C0FA-1282-4014-B7CD-967F5BA56F06</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>conditional selector that depends on the list filter selection</string>
+			<key>xpos</key>
+			<real>259</real>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+		<key>8C94DC4E-86D8-45EA-B4A2-C438C21F24AC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>today script launcher</string>
+			<key>xpos</key>
+			<real>445</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>AC2E62E7-E013-4208-9F69-235AF994704D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>month script launcher</string>
+			<key>xpos</key>
+			<real>445</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string>https://rodrigogarcia.com.mx</string>
+</dict>
+</plist>

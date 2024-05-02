@@ -162,6 +162,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>38522749-A43F-4E2B-A5D5-A769CF906D3F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>62CAB86F-DADF-45A1-84EC-A194466F93FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3A2570B8-703C-4725-BBE0-5DB6AF98F19A</key>
 		<array>
 			<dict>
@@ -265,6 +278,19 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>9B18FBEB-117F-4976-A46F-972468D15949</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>62CAB86F-DADF-45A1-84EC-A194466F93FA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>412B728A-FDD5-4BB2-9AB0-CE24F88A6464</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -497,6 +523,111 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemOMUserTags</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<false/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemTitle</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>goland</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array>
+					<string>/Users</string>
+				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>find the file or folder you want to open</string>
+				<key>title</key>
+				<string>Open in Goland</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>38522749-A43F-4E2B-A5D5-A769CF906D3F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># displays notifications but cannot personalize notification icon
+
+display notification "mensaje de prueba" with title "Título de prueba" sound name "Morse"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>566B02B7-5521-406E-B364-DAF36EF4F8EC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -512,6 +643,26 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>007E1BF7-365A-4A15-88D7-4D632CD1CFB4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>editor</key>
+					<string>GoLand</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>62CAB86F-DADF-45A1-84EC-A194466F93FA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1569,6 +1720,13 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 			<key>ypos</key>
 			<real>95</real>
 		</dict>
+		<key>38522749-A43F-4E2B-A5D5-A769CF906D3F</key>
+		<dict>
+			<key>xpos</key>
+			<real>180</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
 		<key>3A2570B8-703C-4725-BBE0-5DB6AF98F19A</key>
 		<dict>
 			<key>xpos</key>
@@ -1579,16 +1737,30 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 		<key>412B728A-FDD5-4BB2-9AB0-CE24F88A6464</key>
 		<dict>
 			<key>xpos</key>
-			<real>350</real>
+			<real>345</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>335</real>
 		</dict>
 		<key>54A9973D-F81A-4E1F-AC99-A7DD7C6AF18F</key>
 		<dict>
 			<key>xpos</key>
-			<real>485</real>
+			<real>440</real>
 			<key>ypos</key>
 			<real>315</real>
+		</dict>
+		<key>566B02B7-5521-406E-B364-DAF36EF4F8EC</key>
+		<dict>
+			<key>xpos</key>
+			<real>995</real>
+			<key>ypos</key>
+			<real>25</real>
+		</dict>
+		<key>62CAB86F-DADF-45A1-84EC-A194466F93FA</key>
+		<dict>
+			<key>xpos</key>
+			<real>365</real>
+			<key>ypos</key>
+			<real>45</real>
 		</dict>
 		<key>75B82A6E-98B8-4ACE-9D37-EB4A78662ADC</key>
 		<dict>

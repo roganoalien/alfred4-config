@@ -44,13 +44,14 @@
       "color" : "#272B3DEA",
       "paddingHorizontal" : 0,
       "width" : 780,
-      "borderPadding" : 64,
+      "borderPadding" : 0,
       "borderColor" : "#00000000",
-      "blur" : 40,
+      "blur" : 0,
       "roundness" : 8,
       "paddingVertical" : 17
     },
     "credit" : "Doug C. Hardester (r3volution11)",
+    "visualEffectMode" : 2,
     "separator" : {
       "color" : "#3A3E5700",
       "thickness" : 2

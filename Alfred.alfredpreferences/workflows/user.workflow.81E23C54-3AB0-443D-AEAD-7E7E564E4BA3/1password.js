@@ -9,10 +9,9 @@ function envVar(varName) {
 }
 
 // String -> ()
-function writeSTDOUT(text) {
-  $.NSFileHandle
-    .fileHandleWithStandardOutput
-    .writeData($.NSString.alloc.initWithString(text).dataUsingEncoding($.NSUTF8StringEncoding))
+function writeSTDOUT(string) {
+  const nsdata = $(string).dataUsingEncoding($.NSUTF8StringEncoding)
+  $.NSFileHandle.fileHandleWithStandardOutput.writeData(nsdata)
 }
 
 // String -> ()
@@ -24,10 +23,7 @@ function mkpath(path) {
 
 // String, String -> ()
 function writeFile(path, text) {
-  $.NSString
-    .alloc
-    .initWithUTF8String(text)
-    .writeToFileAtomicallyEncodingError(path, true, $.NSUTF8StringEncoding, null)
+  $(text).writeToFileAtomicallyEncodingError(path, true, $.NSUTF8StringEncoding, undefined)
 }
 
 // String -> String
@@ -55,8 +51,8 @@ function runCommand(arguments) {
   const task = $.NSTask.alloc.init
   const stdout = $.NSPipe.pipe
 
-  task.executableURL = $.NSURL.alloc.initFileURLWithPath(arguments[0])
-  task.arguments = arguments.slice(1)
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/env")
+  task.arguments = arguments
   task.standardOutput = stdout
   task.launchAndReturnError(false)
 
@@ -68,16 +64,17 @@ function runCommand(arguments) {
 
 // String... -> String
 function runOP(...arguments) {
-  const command = [opPath(), "--cache"]
+  const command = ["op", "--cache"]
   const format = ["--format", "json"]
 
   return JSON.parse(runCommand(command.concat(arguments, format)))
 }
 
-  ObjC.import("AppKit")
 
 // String -> ()
 function copySensitive(text) {
+  ObjC.import("AppKit")
+
   const pboard = $.NSPasteboard.generalPasteboard
 
   pboard.clearContents
@@ -105,6 +102,30 @@ function copyByLabel(label, itemID, vaultID, accountID) {
   copySensitive(value)
 }
 
+// Object -> Object
+function getModifiers(item_vars) {
+  // Available actions for modifiers
+  const actions = {
+    open_and_fill: { subtitle: "Open and Fill" },
+    view_in_1password: { subtitle: "View in 1Password" },
+    copy_username: { subtitle: "Copy Username" },
+    copy_password: { subtitle: "Copy Password" },
+    copy_otp: { subtitle: "Copy OTP" },
+  }
+
+  // Each action has a variable with the same name, plus a set of item variables
+  Object.keys(actions).forEach(key => actions[key]["variables"] = Object.assign({ action: key }, item_vars))
+
+  // Populate modifiers
+  return {
+    none: actions[envVar("mod_none")],
+    cmd: actions[envVar("mod_cmd")],
+    alt: actions[envVar("mod_alt")],
+    ctrl: actions[envVar("mod_ctrl")],
+    shift: actions[envVar("mod_shift")]
+  }
+}
+
 // String -> [Object]
 function getItems(userID, excludedVaults) {
   const vaults = runOP("vault", "list", "--account", userID)
@@ -115,43 +136,55 @@ function getItems(userID, excludedVaults) {
   return runOP("item", "list", "--account", userID).flatMap(item => {
     const vaultID = item["vault"]["id"]
 
-    // Return early due to user configuration
+    // Return early due to workflow configuration
     if (excludedVaults.includes(vaultID)) return
     if (envVar("logins_only") === "1" && item["category"] !== "LOGIN") return
 
+    // Vault name
     const vaultName = vaults.find(vault => vault["id"] === vaultID)["name"]
-    const urlObjects = item["urls"]
 
     // Format when no URLs
-    if (urlObjects === undefined) {
+    if (item["urls"] === undefined) {
+      const itemVars = {
+        accountID: account["account_uuid"],
+        vaultID: vaultID,
+        itemID: item["id"],
+      }
+
+      const modifiers = getModifiers(itemVars)
+
       return {
         uid: item["id"],
         title: item["title"],
         subtitle: `${vaultName} 𐄁 ${accountURL}`,
-        variables: {
-          accountID: account["account_uuid"],
-          vaultID: vaultID,
-          itemID: item["id"],
-        }
+        mods: modifiers,
+        variables: Object.assign({ action: modifiers["none"]["variables"]["action"] }, itemVars)
       }
     }
 
-    // Array with one entry per URL
+    // Array with one entry per URL, unless specified otherwise in workflow configuration
+    const urlObjects = envVar("multiple_entries") === "1" ? item["urls"] : [item["urls"][0]]
+
     return urlObjects.map(urlObject => {
       const url = withScheme(urlObject["href"])
       const displayURL = envVar("hostnames_only") === "1" ? getHostname(url) : url
+      const itemVars = {
+        accountID: account["account_uuid"],
+        vaultID: vaultID,
+        itemID: item["id"],
+        url: url
+      }
+
+      const modifiers = getModifiers(itemVars)
 
       return {
+        variables: { action: modifiers["none"] },
         uid: item["id"],
         title: item["title"],
         subtitle: `${displayURL} 𐄁 ${vaultName} 𐄁 ${accountURL}`,
         match: `${item["title"]} ${displayURL} ${item["category"]} ${item["tags"]?.join(" ")}`,
-        variables: {
-          accountID: account["account_uuid"],
-          vaultID: vaultID,
-          itemID: item["id"],
-          url: url
-        }
+        mods: modifiers,
+        variables: Object.assign({ action: modifiers["none"]["variables"]["action"] }, itemVars)
       }
     })
   }).filter(item => item !== undefined) // Remove skipped items (excluded vaults or non-logins)
@@ -240,11 +273,12 @@ function prependDataUpdate(filePath) {
 
   const sfObject = readJSON(filePath)
 
-  if (sfObject["items"][0]["arg"] == "update_items") return // Return early if update entry exists
+  if (sfObject["items"][0]["variables"]["action"] == "update_items") return // Return early if update entry exists
 
   sfObject["items"].forEach(item => delete item["uid"]) // Remove uids so Alfred does not sort
 
   sfObject["items"].unshift({
+    variables: { action: "update_items" },
     title: "Update items",
     arg: "update_items",
     icon: {path: "composite_icon.png"}
@@ -255,19 +289,10 @@ function prependDataUpdate(filePath) {
 
 // () -> Bool
 function cliValidInstall() {
-  const cliPath = opPath()
+  // Check if valid executable and the version
+  if (parseInt(runCommand(["op", "--version"]).split(".")[0]) > 1) return true
 
-  // Check if installed to correct location and executable
-  if (!$.NSFileManager.defaultManager.isExecutableFileAtPath(cliPath)) return false
-  // Check if valid version
-  if (parseInt(runCommand([cliPath, "--version"]).split(".")[0]) < 2) return false
-
-  return true
-}
-
-// () -> String
-function opPath() {
-  return "/usr/local/bin/op"
+  return false
 }
 
 // () -> Bool
@@ -304,16 +329,25 @@ function run(argv) {
     throw "The newest version of the 1Password CLI tool needs to be installed: https://1password.com/downloads/command-line/" // For Alfred's debugger
   }
 
-  // Commands which do not deal with data
-  switch (argv[0]) {
-    case "sanity_checks": return // Stop if we only want to check everything is ready
-    case "op_path": return opPath()
-  }
+  // Stop if we only want to check everything is ready
+  if (argv[0] == "sanity_checks") return
 
   // Data files
   const usersFile = envVar("alfred_workflow_data") + "/users.json"
   const vaultsFile = envVar("alfred_workflow_data") + "/vaults.json"
   const itemsFile = envVar("alfred_workflow_data") + "/items.json"
+
+  // Commands which do not need the "op" CLI (and thus the 1Password app running)
+  switch (argv[0]) {
+    case "flip_user_exclusion":
+      flipExclusion(usersFile, "userID", argv[1])
+      return prependDataUpdate(itemsFile)
+    case "flip_vault_exclusion":
+      flipExclusion(vaultsFile, "vaultID", argv[1])
+      return prependDataUpdate(itemsFile)
+    case "data_update_detected":
+      return prependDataUpdate(itemsFile)
+  }
 
   // User ID information is useful in more than one command
   const excludedUserIDs = getExcluded(usersFile, "userID")
@@ -324,13 +358,14 @@ function run(argv) {
 
   const sfUserIDs = usersObject
     .concat({
+      variables: { action: "update_items" },
       title: "Update items",
       arg: "update_items",
       icon: {path: "composite_icon.png"},
       variables: {excluded: false, userID: false} // Avoid "undefined" errors in fuctions which interact with users file
     })
 
-  // Commands
+  // Commands which require the "op" CLI (and thus the 1Password app running)
   switch (argv[0]) {
     case "update_items":
       // Grab exclusions
@@ -355,6 +390,7 @@ function run(argv) {
 
       const sfVaults = activeUserIDs.flatMap(userID => getVaults(userID, excludedVaults))
         .concat({
+          variables: { action: "update_items" },
           title: "Update items",
           arg: "update_items",
           icon: {path: "composite_icon.png"},
@@ -368,20 +404,12 @@ function run(argv) {
       return copyOTP(argv[1], argv[2], argv[3])
     case "copy_by_label":
       return copyByLabel(argv[1], argv[2], argv[3], argv[4])
-    case "flip_user_exclusion":
-      flipExclusion(usersFile, "userID", argv[1])
-      return prependDataUpdate(itemsFile)
-    case "flip_vault_exclusion":
-      flipExclusion(vaultsFile, "vaultID", argv[1])
-      return prependDataUpdate(itemsFile)
     case "print_user_ids":
       return activeUserIDs.join("\n")
     case "print_user_json":
       return JSON.stringify({rerun: 0.1, items: sfUserIDs})
     case "write_user_json":
       return writeJSON(usersFile, {rerun: 0.1, items: sfUserIDs})
-    case "data_update_detected":
-      return prependDataUpdate(itemsFile)
     default:
       throw "Unrecognised argument: " + argv[0]
   }

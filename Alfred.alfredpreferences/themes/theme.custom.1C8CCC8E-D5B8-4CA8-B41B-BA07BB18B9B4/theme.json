@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 14,
+        "colorSelected" : "#A5AACDFF",
+        "font" : "MesloLGL Nerd Font",
+        "color" : "#676C96FF"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#FFC985FF",
+        "font" : "System",
+        "color" : "#A277FEFF"
+      },
+      "backgroundSelected" : "#1B1D2CFF",
+      "text" : {
+        "size" : 25,
+        "colorSelected" : "#60FFC9FF",
+        "font" : "MesloLGL Nerd Font",
+        "color" : "#A6AACDFF"
+      },
+      "iconPaddingHorizontal" : 17,
+      "roundness" : 0,
+      "paddingVertical" : 10,
+      "iconSize" : 40
+    },
+    "search" : {
+      "backgroundSelected" : "#00B0E9FF",
+      "paddingHorizontal" : 18,
+      "spacing" : 10,
+      "text" : {
+        "size" : 46,
+        "colorSelected" : "#000000FF",
+        "font" : "MesloLGL Nerd Font",
+        "color" : "#FEFFFEFF"
+      },
+      "background" : "#15131AFF",
+      "roundness" : 0,
+      "paddingVertical" : 2
+    },
+    "window" : {
+      "color" : "#15131AFF",
+      "paddingHorizontal" : 2,
+      "width" : 780,
+      "borderPadding" : 0,
+      "borderColor" : "#00000000",
+      "blur" : 0,
+      "roundness" : 8,
+      "paddingVertical" : 17
+    },
+    "credit" : "Rodrigo García",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#3A3E5700",
+      "thickness" : 2
+    },
+    "scrollbar" : {
+      "color" : "#656C9680",
+      "thickness" : 11
+    },
+    "name" : "iterm2 theme like"
+  }
+}

@@ -60,45 +60,17 @@
 				<key>runningsubtext</key>
 				<string>loading...</string>
 				<key>script</key>
-				<string>'''
-HTTP Status Code v0.1
-
-Github: https://github.com/ilstar/http_status_code
-Author: Fred Liang
-'''
-
-import csv
-
-from feedback import Feedback
-
-query = '{query}'
-query = query.lower()
-baseurl = 'https://httpstatuses.com/'
-
-fb = Feedback()
-
-with open('status_code.csv', 'r') as csvfile:
-    reader = csv.reader(csvfile)
-    for row in reader:
-        code, desc = row
-        lower_desc = desc.lower()
-
-        if code.find(query) != -1:
-            fb.add_item(desc, code, arg=baseurl + code)
-        elif lower_desc.find(query) != -1:
-            fb.add_item(code, desc, arg=baseurl + code)
-
-print fb</string>
+				<string>python3 httpcode.py $1</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>./httpcode.py</string>
 				<key>subtext</key>
 				<string>A quick way to check out HTTP status code.</string>
 				<key>title</key>
 				<string>HTTP Status Code</string>
 				<key>type</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -151,7 +123,7 @@ print fb</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.2.4</string>
+	<string>0.2.6</string>
 	<key>webaddress</key>
 	<string>https://github.com/ilstar/http_status_code</string>
 </dict>

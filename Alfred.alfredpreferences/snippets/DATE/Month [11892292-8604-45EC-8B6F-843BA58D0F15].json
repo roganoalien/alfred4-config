@@ -1,6 +1,6 @@
 {
   "alfredsnippet" : {
-    "snippet" : "{date: mmmm}",
+    "snippet" : "{date: mm}",
     "uid" : "11892292-8604-45EC-8B6F-843BA58D0F15",
     "name" : "Month",
     "keyword" : "month"

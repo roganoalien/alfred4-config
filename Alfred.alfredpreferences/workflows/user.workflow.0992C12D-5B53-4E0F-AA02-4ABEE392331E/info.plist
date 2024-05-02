@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>domainr.dingis.me</string>
+	<key>connections</key>
+	<dict>
+		<key>79396A58-6CBD-47DB-A270-41AF2A4FA0E1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0393243C-36C6-4A1E-A8D1-342E37FC6894</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>dingyi</string>
+	<key>description</key>
+	<string>Search domains</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Domainr</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>domainr</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please Wait</string>
+				<key>script</key>
+				<string>require_once('workflows.php');
+global $w;
+$w = new Workflows();
+$query = urlencode( "{query}");
+
+$response = queryEndpoint("search", "query", $query );
+
+function queryEndpoint($method, $arg ,$query) {
+  global $w;
+  $key = "AkuVf2rVXOmshqvTGDKW7TmvKRtfp1kdBUYjsnqnrJp3ZiJCyF";
+  $url = "https://domainr.p.rapidapi.com/v2/$method?$arg=$query&amp;mashape-key=$key";
+
+  $response = $w-&gt;request( $url );
+  $response = json_decode( $response );
+
+  return $response;
+}
+
+function getStatus($domain) {
+  $status = queryEndpoint("status", "domain", $domain);
+  $availability = $status-&gt;status[0]-&gt;summary;
+  $out = array ( "icon"=&gt;"", "status"=&gt;"");
+
+  if($availability == 'inactive' || $availability == 'premium' ) {
+    $out["icon"] = 'icons/green.png';
+  }
+  elseif( $availability == 'dpml' || $availability == 'marketed' || $availability == 'expiring' || $availability == 'expiring' || $availability == 'deleting' || $availability == 'priced' || $availability == 'transferable') {
+    $out["icon"] = 'icons/yellow.png';
+  }
+  elseif( $availability == 'tld' || $availability == 'zone' || $availability == 'suffix' || $availability == 'invalid' || $availability == 'undelegated' ) {
+    $out["icon"] = 'icons/gray.png';
+  }
+  elseif( $availability == 'active' || $availability == 'parked' || $availability == 'claimed' || $availability == 'reserved' || $availability == 'disallowed' || $availability == 'unknown' ) {
+    $out["icon"] = 'icons/red.png';
+  }
+
+  $out["status"] = $availability;
+  return $out;
+}
+
+foreach ( $response-&gt;results as $results ) {
+  $status = getStatus($results-&gt;domain);
+  $w-&gt;result(
+    $results-&gt;registerURL,
+    $results-&gt;registerURL,
+    $results-&gt;domain,
+    $status["status"],
+    $status["icon"]
+  );
+  // print("&lt;pre&gt;".print_r($w,true)."&lt;/pre&gt;");
+
+};
+
+echo $w-&gt;toxml();</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Type a domain or any words to search</string>
+				<key>title</key>
+				<string>type a domain</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>79396A58-6CBD-47DB-A270-41AF2A4FA0E1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0393243C-36C6-4A1E-A8D1-342E37FC6894</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0393243C-36C6-4A1E-A8D1-342E37FC6894</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>90</real>
+		</dict>
+		<key>79396A58-6CBD-47DB-A270-41AF2A4FA0E1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<real>90</real>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string>http://ding.one</string>
+</dict>
+</plist>

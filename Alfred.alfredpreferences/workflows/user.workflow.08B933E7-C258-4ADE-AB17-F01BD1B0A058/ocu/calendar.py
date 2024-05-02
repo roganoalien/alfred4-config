@@ -1,32 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import json
-import os
-import os.path
-import subprocess
+from ocu.calendars.applescript_calendar import AppleScriptCalendar
+from ocu.calendars.base_calendar import BaseCalendar
+from ocu.calendars.icalbuddy_calendar import IcalBuddyCalendar
 
 
-# An abstraction class between this workflow and the program that retrieves the
-# calendar data (in this case, get-calendar-events.applescript)
-class Calendar(object):
-
-    # The date and time used internally to display and parse raw event data;
-    # ***do not change this***
-    date_format = '%Y-%m-%d'
-    time_format = '%H:%M'
-    # The path to the AppleScript used for fetching calendar event data
-    script_path = os.path.join(
-        os.path.dirname(os.path.realpath(__file__)),
-        'get-calendar-events.applescript')
-
-    # Retrieve the raw event attribute dictionaries from the AppleScript
-    def get_event_dicts(self, calendar_names):
-        return json.loads(subprocess.check_output([
-            'osascript',
-            self.script_path,
-            *calendar_names
-        ]).decode('utf-8'))
-
-
-calendar = Calendar()
+# Retrieve the correct calendar to use
+def get_calendar() -> BaseCalendar:
+    if IcalBuddyCalendar.is_icalbuddy_installed():
+        return IcalBuddyCalendar()
+    else:
+        return AppleScriptCalendar()

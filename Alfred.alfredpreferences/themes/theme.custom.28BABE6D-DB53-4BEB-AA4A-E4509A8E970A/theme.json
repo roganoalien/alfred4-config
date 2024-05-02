@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 10,
+        "colorSelected" : "#D8DEE9FF",
+        "font" : "System Light",
+        "color" : "#D8DEE999"
+      },
+      "shortcut" : {
+        "size" : 12,
+        "colorSelected" : "#D8DEE9FF",
+        "font" : "System Light",
+        "color" : "#D8DEE9FF"
+      },
+      "backgroundSelected" : "#000000FF",
+      "text" : {
+        "size" : 23,
+        "colorSelected" : "#88C0D0FF",
+        "font" : "Helvetica",
+        "color" : "#D8DEE9DD"
+      },
+      "iconPaddingHorizontal" : 12,
+      "roundness" : 0,
+      "paddingVertical" : 4,
+      "iconSize" : 34
+    },
+    "search" : {
+      "backgroundSelected" : "#2E3440FF",
+      "paddingHorizontal" : 8,
+      "spacing" : 9,
+      "text" : {
+        "size" : 38,
+        "colorSelected" : "#B46EADFF",
+        "font" : "System Light",
+        "color" : "#E1E1E2FF"
+      },
+      "background" : "#15161EFF",
+      "roundness" : 0,
+      "paddingVertical" : 2
+    },
+    "window" : {
+      "color" : "#15161EFF",
+      "paddingHorizontal" : 0,
+      "width" : 550,
+      "borderPadding" : 15,
+      "borderColor" : "#15161EFF",
+      "blur" : 40,
+      "roundness" : 4,
+      "paddingVertical" : 2
+    },
+    "credit" : "Rodrigo García",
+    "separator" : {
+      "color" : "#2E3440FF",
+      "thickness" : 1
+    },
+    "scrollbar" : {
+      "color" : "#81AFC1FF",
+      "thickness" : 2
+    },
+    "name" : "Nord with iTerm Colors"
+  }
+}

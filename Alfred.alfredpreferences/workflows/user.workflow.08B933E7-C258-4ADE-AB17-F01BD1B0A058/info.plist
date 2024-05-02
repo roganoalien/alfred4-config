@@ -261,20 +261,30 @@ The workflow also accounts for timezones and Daylight Saving Time (DST). All tim
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>*.zoom.us, zoom.us, meet.google.com, hangouts.google.com, teams.microsoft.com, gotomeeting.com, *.gotomeeting.com, webex.com, *.webex.com, uberconference.com</string>
-				<key>placeholder</key>
-				<string>e.g. zoom.us,meet.google.com,teams.microsoft.com</string>
+				<string>*.zoom.us
+zoom.us
+meet.google.com
+hangouts.google.com
+teams.microsoft.com
+app.slack.com
+gotomeeting.com
+*.gotomeeting.com
+webex.com
+*.webex.com
+uberconference.com</string>
 				<key>required</key>
 				<true/>
 				<key>trim</key>
 				<true/>
+				<key>verticalsize</key>
+				<integer>9</integer>
 			</dict>
 			<key>description</key>
-			<string>Comma-separated list of domain names representing which URLs to check within each calendar event</string>
+			<string>List of domain names patterns representing which URLs to check within each calendar event. Wildcards are supported. One domain per line.</string>
 			<key>label</key>
 			<string>Conference Domains</string>
 			<key>type</key>
-			<string>textfield</string>
+			<string>textarea</string>
 			<key>variable</key>
 			<string>conference_domains</string>
 		</dict>
@@ -283,19 +293,19 @@ The workflow also accounts for timezones and Daylight Saving Time (DST). All tim
 			<dict>
 				<key>default</key>
 				<string></string>
-				<key>placeholder</key>
-				<string>e.g. General, Work, School</string>
 				<key>required</key>
 				<false/>
 				<key>trim</key>
 				<true/>
+				<key>verticalsize</key>
+				<integer>3</integer>
 			</dict>
 			<key>description</key>
-			<string>Comma-separated list of calendar names for which to fetch events. If this field is blank, all calendars will be implied.</string>
+			<string>List of calendar names for which to fetch events. If this field is blank, all calendars will be implied. One calendar name per line.</string>
 			<key>label</key>
 			<string>Calendars</string>
 			<key>type</key>
-			<string>textfield</string>
+			<string>textarea</string>
 			<key>variable</key>
 			<string>calendar_names</string>
 		</dict>
@@ -362,6 +372,25 @@ The workflow also accounts for timezones and Daylight Saving Time (DST). All tim
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Use icalBuddy for sourcing event data</string>
+			</dict>
+			<key>description</key>
+			<string>Whether or not to use icalBuddy for sourcing event data; if you have calendars with a large number of events, use icalBuddy can drastically improve performance; you must have icalBuddy installed via Homebrew for this functionality to take effect</string>
+			<key>label</key>
+			<string>Use icalBuddy</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>use_icalbuddy</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string>12-hour</string>
 				<key>pairs</key>
 				<array>
@@ -386,7 +415,7 @@ The workflow also accounts for timezones and Daylight Saving Time (DST). All tim
 		</dict>
 	</array>
 	<key>version</key>
-	<string>6.1.0</string>
+	<string>7.1.4</string>
 	<key>webaddress</key>
 	<string>calebevans.me</string>
 </dict>
