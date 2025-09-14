@@ -215,6 +215,18 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>37F77BB9-15D0-49B1-BE95-A71C489818EA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C38C336C-BF72-4E76-9C7F-8517AE1904E4</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>BFB7CD28-4808-4BEC-A0C0-46A58021D3BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -232,18 +244,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>9B18FBEB-117F-4976-A46F-972468D15949</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>37F77BB9-15D0-49B1-BE95-A71C489818EA</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>C38C336C-BF72-4E76-9C7F-8517AE1904E4</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -628,21 +628,21 @@ display notification "mensaje de prueba" with title "Título de prueba" sound na
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Opened {query} in {var:editor}</string>
+				<key>button1</key>
+				<string>Code editor</string>
+				<key>button2</key>
+				<string>Both</string>
+				<key>button3</key>
+				<string>Cancel</string>
+				<key>description</key>
+				<string>Open just in code editor or also in terminal</string>
 				<key>title</key>
-				<string>Open in Code Editor</string>
+				<string>Testing</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
-			<string>007E1BF7-365A-4A15-88D7-4D632CD1CFB4</string>
+			<string>37F77BB9-15D0-49B1-BE95-A71C489818EA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -663,6 +663,27 @@ display notification "mensaje de prueba" with title "Título de prueba" sound na
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>62CAB86F-DADF-45A1-84EC-A194466F93FA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Opened {query} in {var:editor}</string>
+				<key>title</key>
+				<string>Open in Code Editor</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>007E1BF7-365A-4A15-88D7-4D632CD1CFB4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -694,27 +715,6 @@ open $query -a ${editor//\\/\\\\}</string>
 			<string>BFB7CD28-4808-4BEC-A0C0-46A58021D3BF</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>button1</key>
-				<string>Code editor</string>
-				<key>button2</key>
-				<string>Both</string>
-				<key>button3</key>
-				<string>Cancel</string>
-				<key>description</key>
-				<string>Open just in code editor or also in terminal</string>
-				<key>title</key>
-				<string>Testing</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.dialog</string>
-			<key>uid</key>
-			<string>37F77BB9-15D0-49B1-BE95-A71C489818EA</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1203,6 +1203,29 @@ open $query -a ${editor//\\/\\\\}</string>
 			<string>8D6B3FB2-3597-4111-997F-9B5E972F5861</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E35E5F1E-51F1-4B02-A9F8-2D3529556AC9</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1716,9 +1739,9 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 		<key>37F77BB9-15D0-49B1-BE95-A71C489818EA</key>
 		<dict>
 			<key>xpos</key>
-			<real>485</real>
+			<real>475</real>
 			<key>ypos</key>
-			<real>95</real>
+			<real>35</real>
 		</dict>
 		<key>38522749-A43F-4E2B-A5D5-A769CF906D3F</key>
 		<dict>
@@ -1744,9 +1767,9 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 		<key>54A9973D-F81A-4E1F-AC99-A7DD7C6AF18F</key>
 		<dict>
 			<key>xpos</key>
-			<real>440</real>
+			<real>370</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>310</real>
 		</dict>
 		<key>566B02B7-5521-406E-B364-DAF36EF4F8EC</key>
 		<dict>
@@ -1866,6 +1889,13 @@ Feel free to ask for features or post issues you're having with the workflow. I'
 			<real>45</real>
 			<key>ypos</key>
 			<real>100</real>
+		</dict>
+		<key>E35E5F1E-51F1-4B02-A9F8-2D3529556AC9</key>
+		<dict>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>465</real>
 		</dict>
 		<key>EBA354CE-F931-488B-A39B-617F2AEF0E80</key>
 		<dict>

@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>me.svenko.shazam</string>
+	<key>connections</key>
+	<dict>
+		<key>323ADFC1-7E68-482D-81BB-96FEE57BD62B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45F0B180-F8D0-4053-BF65-046FAD06E74F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>45F0B180-F8D0-4053-BF65-046FAD06E74F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D79E994C-D82C-4C11-9C38-BA52F78A7B7D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1E5AB5FE-51EC-4990-90F0-E7CE6F260FEE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9F6A2A3C-0381-46AF-9FFC-CF6F09CD9EDE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>48ED4EC1-D116-4788-9E20-B6ACEA2547B7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A98FA8EB-27BE-4F2F-8DEF-040566D44770</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Delete this song from the history</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F47B6C30-92A8-4E12-AE67-E5C74030C7F0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9F58331-C01E-47BC-B851-954C75EF3808</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Delete every song from the history</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5B106302-0AA5-4CC7-BE0C-F1110DD26628</key>
+		<array/>
+		<key>6C243D0D-706C-44F3-B9B9-9A136F3A778C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC8D4F8D-956A-42A7-9390-895D80A329C4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9F6A2A3C-0381-46AF-9FFC-CF6F09CD9EDE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6C243D0D-706C-44F3-B9B9-9A136F3A778C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F47B6C30-92A8-4E12-AE67-E5C74030C7F0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A24D67D4-2A58-4E5D-A15E-BF863D7A0190</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A24D67D4-2A58-4E5D-A15E-BF863D7A0190</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9C9CF28C-7BB0-42AD-A262-CD77D2F9573D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>3ADAB098-6112-4D24-8B7E-3BFD7DA3C426</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AC8D4F8D-956A-42A7-9390-895D80A329C4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E66AA7AA-0DB5-469B-B98C-FB7656F80E0A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4510BE42-8319-40DC-B093-069481BC4D6E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>5B106302-0AA5-4CC7-BE0C-F1110DD26628</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E66AA7AA-0DB5-469B-B98C-FB7656F80E0A</key>
+		<array/>
+		<key>F47B6C30-92A8-4E12-AE67-E5C74030C7F0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>37822983-64D8-40DC-ACC3-E25315CB657E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FDE4E338-E1C6-4F4D-9CC7-6A4170689E64</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD19E455-7193-47CD-9777-5C0D76C4FE38</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>323ADFC1-7E68-482D-81BB-96FEE57BD62B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>svenko99</string>
+	<key>description</key>
+	<string>Identify music</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Shazam</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>Shazam.shortcut</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>D79E994C-D82C-4C11-9C38-BA52F78A7B7D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:split2}</string>
+				<key>title</key>
+				<string>{var:split1}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>E66AA7AA-0DB5-469B-B98C-FB7656F80E0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>shazam</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Shazam</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>FD19E455-7193-47CD-9777-5C0D76C4FE38</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_shortcut</key>
+					<string>Shazam</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/shortcuts/shortcut.installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>323ADFC1-7E68-482D-81BB-96FEE57BD62B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Shortcut is not installed</string>
+						<key>uid</key>
+						<string>1E5AB5FE-51EC-4990-90F0-E7CE6F260FEE</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Shortcut is installed</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>45F0B180-F8D0-4053-BF65-046FAD06E74F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:output}</string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>Notification</string>
+						<key>outputlabel</key>
+						<string>Display as notifitaciton</string>
+						<key>uid</key>
+						<string>4510BE42-8319-40DC-B093-069481BC4D6E</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Display as large type</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>AC8D4F8D-956A-42A7-9390-895D80A329C4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>-</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>6C243D0D-706C-44F3-B9B9-9A136F3A778C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>5B106302-0AA5-4CC7-BE0C-F1110DD26628</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputmode</key>
+				<integer>-1</integer>
+				<key>outputmode</key>
+				<integer>1</integer>
+				<key>shortcut</key>
+				<string>Shazam</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.runshortcut</string>
+			<key>uid</key>
+			<string>9F6A2A3C-0381-46AF-9FFC-CF6F09CD9EDE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import sys
+import json
+
+
+query = sys.argv[1]
+
+
+def delete_song(file_path, song_title):
+    # Load the JSON data
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    
+    # Filter out the song with the specified title
+    data['items'] = [item for item in data['items'] if item['title'] != song_title]
+    
+    # Save the updated data back to the file
+    with open(file_path, 'w') as file:
+        json.dump(data, file, indent=4)
+
+if __name__ == "__main__":
+    file_path = 'history.json'
+    song_title = query
+    delete_song(file_path, song_title)
+    print(f"The song '{song_title}' has been deleted from history.")</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A98FA8EB-27BE-4F2F-8DEF-040566D44770</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:clipboard}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Copy to clipboard</string>
+						<key>uid</key>
+						<string>FDE4E338-E1C6-4F4D-9CC7-6A4170689E64</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Don't copy to clipboard</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F47B6C30-92A8-4E12-AE67-E5C74030C7F0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>37822983-64D8-40DC-ACC3-E25315CB657E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>shazam history</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>cat history.json</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Shazam History</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>48ED4EC1-D116-4788-9E20-B6ACEA2547B7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import json
+import sys
+import os
+
+query = sys.argv[1]
+
+def prepend_item(json_file, title, autocomplete, arg):
+    # Check if the JSON file exists
+    if not os.path.isfile(json_file):
+        print(f"Error: {json_file} does not exist.")
+        return
+    
+    # Load the existing JSON data from the file
+    with open(json_file, 'r') as file:
+        try:
+            data = json.load(file)
+        except json.JSONDecodeError:
+            print("Error: Failed to decode JSON. Please check the file format.")
+            return
+
+    # Ensure the 'items' key exists and is a list
+    if 'items' not in data or not isinstance(data['items'], list):
+        print("Error: 'items' key is missing or not a list in the JSON file.")
+        return
+
+    # Create the new item
+    new_item = {
+        "title": title,
+        "autocomplete": autocomplete,
+        "arg": arg
+    }
+
+    # Prepend the new item to the 'items' list
+    data['items'].insert(0, new_item)
+
+    # Write the updated data back to the file
+    with open(json_file, 'w') as file:
+        json.dump(data, file, indent=2)
+    
+    print(f"New item prepended to {json_file}.")
+
+if __name__ == "__main__":
+    # Call the function to prepend the item
+    prepend_item("history.json", query, query, query)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9C9CF28C-7BB0-42AD-A262-CD77D2F9573D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>Shazam didn't recognise any media.</string>
+						<key>outputlabel</key>
+						<string>Save music title to history</string>
+						<key>uid</key>
+						<string>3ADAB098-6112-4D24-8B7E-3BFD7DA3C426</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Don't save music title to history</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>A24D67D4-2A58-4E5D-A15E-BF863D7A0190</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import json
+
+def clear_history(file_path):
+    # Load the JSON data
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    
+    # Clear the 'items' list
+    data['items'] = []
+    
+    # Save the updated data back to the file
+    with open(file_path, 'w') as file:
+        json.dump(data, file, indent=4)
+
+if __name__ == "__main__":
+    file_path = 'history.json'  # Update this path if needed
+    clear_history(file_path)
+    print("All items have been cleared from history.")</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D9F58331-C01E-47BC-B851-954C75EF3808</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Shazam Workflow for Alfred
+
+## 🤔 Introduction
+
+- Easily identify music using Shazam directly from Alfred with this workflow.
+
+## 🚀 Installation
+
+- Head to [Shazam Workflow](https://alfred.app/workflows/svenko99/shazam/) in the Alfred Gallery.
+- Install [⤓ Shazam Workflow](https://github.com/svenko99/alfred-shazam/releases/latest/download/Shazam.alfredworkflow) in the repo.
+- When running the script for the first time, you will be prompted to download an Apple Shortcut.
+
+## 🔧 Workflow Variables
+
+- The output can be adjusted to either `Notification` or `Large Type`.
+- Option to copy the music title to clipboard with a checkbox.
+
+## 🔄 Usage
+
+- Type `shazam` in Alfred while the music is playing and wait for the results.
+- Type `shazam history` in Alfred to view your Shazam history. Use `⌘` to delete a specific song or `⌥` to delete every song from the history.
+
+## 📝 Notice
+
+- This workflow has been tested on macOS Sonoma (14.5).</string>
+	<key>uidata</key>
+	<dict>
+		<key>323ADFC1-7E68-482D-81BB-96FEE57BD62B</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+		<key>37822983-64D8-40DC-ACC3-E25315CB657E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1000</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>45F0B180-F8D0-4053-BF65-046FAD06E74F</key>
+		<dict>
+			<key>xpos</key>
+			<real>365</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>48ED4EC1-D116-4788-9E20-B6ACEA2547B7</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
+		<key>5B106302-0AA5-4CC7-BE0C-F1110DD26628</key>
+		<dict>
+			<key>xpos</key>
+			<real>1000</real>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>6C243D0D-706C-44F3-B9B9-9A136F3A778C</key>
+		<dict>
+			<key>xpos</key>
+			<real>720</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>9C9CF28C-7BB0-42AD-A262-CD77D2F9573D</key>
+		<dict>
+			<key>xpos</key>
+			<real>1000</real>
+			<key>ypos</key>
+			<real>485</real>
+		</dict>
+		<key>9F6A2A3C-0381-46AF-9FFC-CF6F09CD9EDE</key>
+		<dict>
+			<key>xpos</key>
+			<real>565</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>A24D67D4-2A58-4E5D-A15E-BF863D7A0190</key>
+		<dict>
+			<key>xpos</key>
+			<real>745</real>
+			<key>ypos</key>
+			<real>485</real>
+		</dict>
+		<key>A98FA8EB-27BE-4F2F-8DEF-040566D44770</key>
+		<dict>
+			<key>note</key>
+			<string>Deletes a song from the history</string>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>265</real>
+		</dict>
+		<key>AC8D4F8D-956A-42A7-9390-895D80A329C4</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>D79E994C-D82C-4C11-9C38-BA52F78A7B7D</key>
+		<dict>
+			<key>xpos</key>
+			<real>565</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>D9F58331-C01E-47BC-B851-954C75EF3808</key>
+		<dict>
+			<key>note</key>
+			<string>Deletes every song from the history</string>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
+		<key>E66AA7AA-0DB5-469B-B98C-FB7656F80E0A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1000</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>F47B6C30-92A8-4E12-AE67-E5C74030C7F0</key>
+		<dict>
+			<key>xpos</key>
+			<real>790</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+		<key>FD19E455-7193-47CD-9777-5C0D76C4FE38</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>Notification</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Notification</string>
+						<string>Notification</string>
+					</array>
+					<array>
+						<string>Large Type</string>
+						<string>Large Type</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Output the music title as</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>output</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Copy the music title to clipboard</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>clipboard</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.2</string>
+	<key>webaddress</key>
+	<string>https://svenko.me</string>
+</dict>
+</plist>

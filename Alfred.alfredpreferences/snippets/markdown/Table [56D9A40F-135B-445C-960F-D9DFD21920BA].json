@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : " |{cursor}||\n |---:|----|\n |    |    |\n",
+    "dontautoexpand" : true,
+    "uid" : "56D9A40F-135B-445C-960F-D9DFD21920BA",
+    "name" : "Table",
+    "keyword" : "mdt"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "^({cursor})",
+    "dontautoexpand" : true,
+    "uid" : "01F8CF43-A104-4EC7-B504-380F00E75940",
+    "name" : "Superscript",
+    "keyword" : "md^"
+  }
+}

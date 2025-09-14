@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "![{cursor}]()",
+    "dontautoexpand" : true,
+    "uid" : "9E904E93-7E2B-461D-BF7F-A77EC84485E5",
+    "name" : "Image",
+    "keyword" : "mdi"
+  }
+}

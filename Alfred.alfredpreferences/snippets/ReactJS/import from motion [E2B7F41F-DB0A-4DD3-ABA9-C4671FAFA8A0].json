@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import { {cursor} } from \"motion\/react\";",
+    "dontautoexpand" : true,
+    "uid" : "E2B7F41F-DB0A-4DD3-ABA9-C4671FAFA8A0",
+    "name" : "import from motion",
+    "keyword" : "mo"
+  }
+}

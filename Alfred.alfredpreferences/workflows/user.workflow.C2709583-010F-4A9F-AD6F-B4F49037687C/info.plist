@@ -1497,7 +1497,7 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<key>external_device</key>
 		<string></string>
 		<key>headphones_device</key>
-		<string></string>
+		<string>External Headphones</string>
 		<key>speakers_device</key>
 		<string></string>
 	</dict>

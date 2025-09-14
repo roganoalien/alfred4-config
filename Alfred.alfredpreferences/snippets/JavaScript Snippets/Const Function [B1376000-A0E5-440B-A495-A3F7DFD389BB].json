@@ -3,6 +3,6 @@
     "snippet" : "const functionName = () => {};",
     "uid" : "B1376000-A0E5-440B-A495-A3F7DFD389BB",
     "name" : "Const Function",
-    "keyword" : "constf"
+    "keyword" : "const"
   }
 }

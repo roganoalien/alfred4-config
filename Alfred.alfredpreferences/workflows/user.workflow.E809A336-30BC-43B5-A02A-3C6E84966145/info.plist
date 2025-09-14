@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.toggle.window</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>5EC1C73B-B394-4B81-8ED1-A1593CFE9B3B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FCF470AC-33D6-40D4-BF65-80209207F8A9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string>Cycle through windows app</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Change App Window</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>48</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>⇥</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>5EC1C73B-B394-4B81-8ED1-A1593CFE9B3B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application "System Events"
+    set frontApp to first application process whose frontmost is true
+    set windowCount to count windows of frontApp
+    
+    -- Get the currently active window
+    set currentWindow to first window of frontApp whose value of attribute "AXMain" is true
+    set currentIndex to 1
+    
+    -- Find the index of the current window
+    repeat with i from 1 to windowCount
+        if window i of frontApp is currentWindow then
+            set currentIndex to i
+            exit repeat
+        end if
+    end repeat
+    
+    -- Calculate the index of the next window to activate
+    set nextIndex to (currentIndex mod windowCount) + 1
+    
+    -- Activate the next window
+    tell window nextIndex of frontApp to perform action "AXRaise"
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FCF470AC-33D6-40D4-BF65-80209207F8A9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>5EC1C73B-B394-4B81-8ED1-A1593CFE9B3B</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>FCF470AC-33D6-40D4-BF65-80209207F8A9</key>
+		<dict>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string>https://rodrigogarcia.com.mx</string>
+</dict>
+</plist>

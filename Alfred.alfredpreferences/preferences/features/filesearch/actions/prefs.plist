@@ -2,18 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>disabledDefaultActions</key>
+	<dict>
+		<key>alfred.action.revealinfinder</key>
+		<true/>
+		<key>alfred.action.text.openindictionary</key>
+		<true/>
+	</dict>
 	<key>escapeCopiedPath</key>
 	<true/>
 	<key>finderSelectionHotkey</key>
 	<dict>
 		<key>key</key>
-		<integer>-1</integer>
+		<integer>35</integer>
 		<key>mod</key>
-		<integer>-1</integer>
+		<integer>1835008</integer>
 		<key>string</key>
-		<string></string>
+		<string>P</string>
 	</dict>
-	<key>showWithTab</key>
-	<true/>
+	<key>showWithCtrl</key>
+	<false/>
+	<key>showWithFn</key>
+	<false/>
+	<key>showWithRightArrow</key>
+	<false/>
 </dict>
 </plist>

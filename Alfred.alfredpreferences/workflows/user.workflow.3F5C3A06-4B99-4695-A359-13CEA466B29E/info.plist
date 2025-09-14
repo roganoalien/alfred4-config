@@ -25,7 +25,7 @@
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>File filter from keyword and reveal</string>
 	<key>objects</key>
@@ -35,6 +35,8 @@
 			<dict>
 				<key>anchorfields</key>
 				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>daterange</key>
@@ -68,10 +70,14 @@
 				</array>
 				<key>includesystem</key>
 				<false/>
+				<key>limit</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
 				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -86,15 +92,20 @@
 			<key>uid</key>
 			<string>AD457EE2-3852-403B-9D5D-4879D768834F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.revealfile</string>
 			<key>uid</key>
 			<string>D9221320-8EE0-4CC4-8099-15A711A10AB4</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -116,6 +127,8 @@
 			<integer>50</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>webaddress</key>
 	<string>https://rodrigogarcia.com.mx</string>
 </dict>

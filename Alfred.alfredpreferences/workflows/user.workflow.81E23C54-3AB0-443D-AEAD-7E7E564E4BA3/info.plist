@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alfredapp.vitor.1password</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>06513BCB-0261-45C2-BE12-AEC0021E9E8E</key>
@@ -47,6 +49,19 @@
 		</array>
 		<key>2166D3DB-EF96-4C03-B95A-77D5068615D7</key>
 		<array/>
+		<key>27280DF5-78D3-4386-9EC9-E2E8CA15F869</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2BBDFBE4-FBBC-4506-9269-3CFB4017932C</key>
 		<array>
 			<dict>
@@ -120,6 +135,33 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>44322D7B-6B6D-47D8-B383-A1D114D6601C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>97090C7E-0127-4909-A2CA-D78C9DC0355F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>BA892098-6B49-437B-A650-62256CF781FB</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D21086A-0AED-4EA6-BD28-E6971528277C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>BA892098-6B49-437B-A650-62256CF781FB</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -343,6 +385,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6DE384FF-FDAF-4607-9281-254FAF291EB7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D3F45C0-A7DC-4185-BA64-B3FD62C7CA86</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>7277B529-365D-4D92-B874-22C6E407F47E</key>
 		<array/>
 		<key>72EE2185-F8D8-43A9-949D-57337E125256</key>
@@ -371,11 +426,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7D3F45C0-A7DC-4185-BA64-B3FD62C7CA86</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>900A2A3E-D5CB-475C-996A-C6A8207DB171</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>4FEB803E-78D2-4DAA-A493-0C499D3B3415</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>91D809BB-5106-4221-89E8-F3CB113F026E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27280DF5-78D3-4386-9EC9-E2E8CA15F869</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -428,6 +509,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>05ACE926-EBA9-4EA1-856D-F95AE9437802</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A62C2C3E-C332-4A12-93D8-C534D7C0EA15</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEF1EE27-825A-4AD0-8BC4-9EBFAD6DDA4B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -508,6 +602,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>39FC6428-F956-4D05-9D2D-255398F8F5E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BEF1EE27-825A-4AD0-8BC4-9EBFAD6DDA4B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -841,7 +948,7 @@ fi</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>readonly items_hash_file="${alfred_workflow_data}/items_hash.txt"
-readonly old_items_hash="$(/bin/cat "${items_hash_file}")"
+readonly old_items_hash="$(&lt; "${items_hash_file}")"
 readonly new_items_hash="$(/usr/bin/sqlite3 "${HOME}/Library/Group Containers/2BUA8C4S2C.com.1password/Library/Application Support/1Password/Data/1password.sqlite" 'SELECT * FROM item_overviews;' | md5)"
 
 [[ -n "${items_hash_file}" ]] || exit 1
@@ -976,6 +1083,8 @@ echo '{
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Include or exclude vaults from results</string>
 				<key>title</key>
@@ -999,7 +1108,10 @@ echo '{
 		</dict>
 		<dict>
 			<key>config</key>
-			<dict/>
+			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
@@ -1237,6 +1349,8 @@ echo '{
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Include or exclude accounts from results</string>
 				<key>title</key>
@@ -1278,7 +1392,10 @@ echo '{
 		</dict>
 		<dict>
 			<key>config</key>
-			<dict/>
+			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
@@ -1520,10 +1637,18 @@ Keep it running and try again.</string>
 				<key>runningsubtext</key>
 				<string>Getting items…</string>
 				<key>script</key>
-				<string>readonly file="${alfred_workflow_data}/items.json"
+				<string># If workflow preferences changed, request item update
+if [[ -f './prefs.plist' ]] &amp;&amp; ! /usr/bin/cmp -s './prefs.plist' "${alfred_workflow_data}/prefs.plist"; then
+  /bin/mkdir -p "${alfred_workflow_data}"
+  /bin/cp './prefs.plist' "${alfred_workflow_data}/prefs.plist"
+  ./1password.js 'data_update_detected'
+fi
 
-if [[ -f "${file}" ]]; then
-  cat "${file}"
+# Read items file if present and exit early
+readonly items_file="${alfred_workflow_data}/items.json"
+
+if [[ -f "${items_file}" ]]; then
+  &lt; "${items_file}"
   exit 0
 fi
 
@@ -1534,6 +1659,7 @@ if [[ -f "${prefs_file}" ]]; then
   /usr/libexec/PlistBuddy -c 'Delete :enabled' "${prefs_file}" 2&gt; /dev/null
 fi
 
+# Request initial build
 echo '{
   "rerun": 0.1,
   "items": [{
@@ -1547,6 +1673,8 @@ echo '{
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Show your 1Password items</string>
 				<key>title</key>
@@ -1842,13 +1970,17 @@ echo '{
 				<key>script</key>
 				<string>function run() {
   const itemID = $.NSProcessInfo.processInfo.environment.objectForKey("itemID").js
-  const query = itemID + "=" + itemID
-
   const url = $.NSProcessInfo.processInfo.environment.objectForKey("url").js
-  const urlObject = $.NSURL.URLWithString(url)
 
-  if (urlObject.query.js === undefined) return url + "?" + query
-  return url + "&amp;" + query
+  if (url === undefined) throw "Item does not have a configured website URL"
+
+  const urlObject = $.NSURL.URLWithString(url)
+  const components = $.NSURLComponents.componentsWithURLResolvingAgainstBaseURL(urlObject, false)
+  const itemQuery = $.NSURLQueryItem.queryItemWithNameValue(itemID, itemID)
+  const queryItems = components.queryItems.js?.concat(itemQuery) || [itemQuery]
+
+  components.setQueryItems($(queryItems))
+  return components.URL.absoluteString.js
 }</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -2090,10 +2222,33 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Copied to Clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>97090C7E-0127-4909-A2CA-D78C9DC0355F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>!1pdiagnostic</string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Result will be copied to the clipboard</string>
 				<key>text</key>
@@ -2247,6 +2402,23 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
+				<string>Username</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>27280DF5-78D3-4386-9EC9-E2E8CA15F869</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
 				<string>https://github.com/alfredapp/1password-workflow/issues/</string>
 				<key>passthroughargument</key>
 				<false/>
@@ -2301,6 +2473,70 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:copy_notifications}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Notification</string>
+						<key>uid</key>
+						<string>BA892098-6B49-437B-A650-62256CF781FB</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Password</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7D3F45C0-A7DC-4185-BA64-B3FD62C7CA86</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Submarine</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>1D21086A-0AED-4EA6-BD28-E6971528277C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -2321,6 +2557,23 @@ fi</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>One-Time Password</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BEF1EE27-825A-4AD0-8BC4-9EBFAD6DDA4B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Setup
@@ -2335,11 +2588,11 @@ Interact with your 1Password items via the `1p` keyword.
 
 ![Alfred search for 1p](images/about/1p.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt;: Open and Fill.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: View in 1Password.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy Username.
-* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy Password.
-* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy One-Time Password
+* &lt;kbd&gt;↩&lt;/kbd&gt; Open and Fill.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; View in 1Password.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy Username.
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy Password.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy One-Time Password
 
 Uncommon but useful actions, such as toggling vaults, can be accessed with `:1pextras`.
 
@@ -2380,6 +2633,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<key>ypos</key>
 			<real>440</real>
 		</dict>
+		<key>1D21086A-0AED-4EA6-BD28-E6971528277C</key>
+		<dict>
+			<key>xpos</key>
+			<real>2210</real>
+			<key>ypos</key>
+			<real>1310</real>
+		</dict>
 		<key>2032CDC0-7BD4-4671-8A03-2BEB9F84B3D3</key>
 		<dict>
 			<key>xpos</key>
@@ -2395,6 +2655,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<real>2210</real>
 			<key>ypos</key>
 			<real>775</real>
+		</dict>
+		<key>27280DF5-78D3-4386-9EC9-E2E8CA15F869</key>
+		<dict>
+			<key>xpos</key>
+			<real>2020</real>
+			<key>ypos</key>
+			<real>1090</real>
 		</dict>
 		<key>2BBDFBE4-FBBC-4506-9269-3CFB4017932C</key>
 		<dict>
@@ -2446,6 +2713,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<real>1070</real>
 			<key>ypos</key>
 			<real>1060</real>
+		</dict>
+		<key>44322D7B-6B6D-47D8-B383-A1D114D6601C</key>
+		<dict>
+			<key>xpos</key>
+			<real>2100</real>
+			<key>ypos</key>
+			<real>1215</real>
 		</dict>
 		<key>4AFED243-84FB-4005-B115-FFD8635E6737</key>
 		<dict>
@@ -2552,6 +2826,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<key>ypos</key>
 			<real>1060</real>
 		</dict>
+		<key>7D3F45C0-A7DC-4185-BA64-B3FD62C7CA86</key>
+		<dict>
+			<key>xpos</key>
+			<real>2020</real>
+			<key>ypos</key>
+			<real>1215</real>
+		</dict>
 		<key>900A2A3E-D5CB-475C-996A-C6A8207DB171</key>
 		<dict>
 			<key>xpos</key>
@@ -2574,6 +2855,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<real>405</real>
 			<key>ypos</key>
 			<real>210</real>
+		</dict>
+		<key>97090C7E-0127-4909-A2CA-D78C9DC0355F</key>
+		<dict>
+			<key>xpos</key>
+			<real>2210</real>
+			<key>ypos</key>
+			<real>1060</real>
 		</dict>
 		<key>985CB791-EA4E-4B3E-A04E-37A481C33035</key>
 		<dict>
@@ -2657,6 +2945,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<real>530</real>
 			<key>ypos</key>
 			<real>575</real>
+		</dict>
+		<key>BEF1EE27-825A-4AD0-8BC4-9EBFAD6DDA4B</key>
+		<dict>
+			<key>xpos</key>
+			<real>2020</real>
+			<key>ypos</key>
+			<real>1340</real>
 		</dict>
 		<key>C6542F9B-7628-484C-8E6B-E87E5291D5BA</key>
 		<dict>
@@ -2954,8 +3249,7 @@ To report a problem, run `!1pdiagnostic`.</string>
 				</array>
 			</dict>
 			<key>description</key>
-			<string>Actions to perform when pressing modifier keys.
-Changes come into effect on next cache update.</string>
+			<string>Actions to perform when pressing modifier keys.</string>
 			<key>label</key>
 			<string>⇧↩</string>
 			<key>type</key>
@@ -3028,7 +3322,26 @@ Changes come into effect on next cache update.</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Check for 1Password modifications and offer to update data</string>
+				<string>Show notification and play sound on copy operations</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Notifications</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>copy_notifications</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Check for 1Password modifications and offer to update</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3041,7 +3354,7 @@ Changes come into effect on next cache update.</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.12</string>
+	<string>2025.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/1password-workflow/</string>
 </dict>

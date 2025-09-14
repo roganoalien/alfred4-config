@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "``` mermaid\n  {cursor}\n```",
+    "dontautoexpand" : true,
+    "uid" : "A3F76DF2-8920-4B07-B936-03088DEBD055",
+    "name" : "Code (mermaid)",
+    "keyword" : "mdm"
+  }
+}

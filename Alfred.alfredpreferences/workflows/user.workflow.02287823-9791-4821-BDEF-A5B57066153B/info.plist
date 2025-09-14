@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>mr.pennyworth.cleanshot</string>
+	<key>connections</key>
+	<dict>
+		<key>1CD9FEA0-9F30-4F5D-A586-0E232DFE87F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4327B136-2FAD-458C-8C88-1F2F388260A1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1DF420FC-83A9-4859-B1C6-B58286A5D924</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1FE4B488-8FF6-4E08-8781-B53953275FAE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4327B136-2FAD-458C-8C88-1F2F388260A1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7CA2D242-B928-4A46-A566-42187A663B76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7CA2D242-B928-4A46-A566-42187A663B76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F0B2ED3B-F72E-4DBC-82EE-F355ABBD68DF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1DF420FC-83A9-4859-B1C6-B58286A5D924</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Mr. Pennyworth</string>
+	<key>description</key>
+	<string>Trigger CleanShot Actions from Alfred</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>CleanShot</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>name</key>
+				<string>CleanShot: Pin to Screen</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>screens</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://raw.githubusercontent.com/mr-pennyworth/alfred-cleanshot/main/info.plist'
+readonly workflow_url='https://github.com/mr-pennyworth/alfred-cleanshot/releases/latest/download/CleanShot.alfredworkflow'
+readonly download_type='direct'
+readonly frequency_check='7'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8C4555D0-460A-4EA7-ADFF-BA9C3BACDCD8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Image File to Pin...</string>
+				<key>types</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>action</key>
+					<string>share-extension-pin</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>screens</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>items.sh</string>
+				<key>subtext</key>
+				<string>Trigger CleanShot Actions [keyword: cs]</string>
+				<key>title</key>
+				<string>CleanShot</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4327B136-2FAD-458C-8C88-1F2F388260A1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1CD9FEA0-9F30-4F5D-A586-0E232DFE87F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>pin</string>
+						<key>outputlabel</key>
+						<string>pin</string>
+						<key>uid</key>
+						<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>annotate</string>
+						<key>outputlabel</key>
+						<string>else</string>
+						<key>uid</key>
+						<string>F0B2ED3B-F72E-4DBC-82EE-F355ABBD68DF</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>annotate</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7CA2D242-B928-4A46-A566-42187A663B76</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>cleanshot://{var:action}?filepath={query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./scripts/$1.sh</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Image File to Annotate and Edit...</string>
+				<key>types</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>action</key>
+					<string>share-extension-annotate</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1DF420FC-83A9-4859-B1C6-B58286A5D924</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>name</key>
+				<string>CleanShot: Annotate</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>1FE4B488-8FF6-4E08-8781-B53953275FAE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>&lt;h1 align="center"&gt;
+  
+&lt;a href="https://github.com/mr-pennyworth/alfred-cleanshot/releases/latest/"&gt;
+  &lt;img src="icon.png" width="16%"&gt;&lt;br/&gt;
+  &lt;img alt="Download"
+       src="https://img.shields.io/github/downloads/mr-pennyworth/alfred-cleanshot/total?color=purple&amp;label=Download"&gt;&lt;br/&gt;
+&lt;/a&gt;
+  CleanShot X 🤝 Alfred
+&lt;/h1&gt;
+
+### Requiremens
+- [Alfred 4](https://alfredapp.com/)
+- [CleanShot X](https://cleanshot.com/) (version `4.2` or above)
+
+### Features
+- Capture Area
+- Capture Area and Pin to the Screen
+- Capture Area and Annotate
+- Capture Fullscreen
+- Capture Fullscreen and Pin to the Screen
+- Capture Fullscreen and Annotate
+- Capture Previous Area
+- Capture Text using OCR
+- Capture Window
+- Capture Window and Pin to the Screen
+- Capture Window and Annotate
+- Annotate Image from Clipboard
+- Pin to the Screen from Clipboard
+- Annotate Image
+- Pin to the Screen
+- Record Screen
+- Restore Recently Closed File
+- Scrolling Capture
+- Self Timer
+- Show / Hide Desktop Icons
+- Open All-in-One Mode
+- Open Capture History
+
+### Screenshots
+![all actions part 1](screenshots/actions-list-1.png)
+![all actions part 2](screenshots/actions-list-2.png)
+![clipboard actions](screenshots/clipboard-actions-list.png)
+![file actions](screenshots/file-actions.png)
+
+### Credits
+This workflow is based on [Raycast][1]'s [CleanShot X script commands][2].
+
+### Icon Credits
+Some icons from by srip, Gregor Cresnar, and [freepik][3] from [flaticon][4].
+
+[1]: https://raycast.com
+[2]: https://github.com/raycast/script-commands/tree/master/commands/apps/cleanshot
+[3]: https://www.freepik.com
+[4]: https://www.flaticon.com
+</string>
+	<key>uidata</key>
+	<dict>
+		<key>1CD9FEA0-9F30-4F5D-A586-0E232DFE87F6</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</key>
+		<dict>
+			<key>xpos</key>
+			<real>520</real>
+			<key>ypos</key>
+			<real>115</real>
+		</dict>
+		<key>1DF420FC-83A9-4859-B1C6-B58286A5D924</key>
+		<dict>
+			<key>note</key>
+			<string>clear {query}</string>
+			<key>xpos</key>
+			<real>410</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>1FE4B488-8FF6-4E08-8781-B53953275FAE</key>
+		<dict>
+			<key>xpos</key>
+			<real>475</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</key>
+		<dict>
+			<key>xpos</key>
+			<real>735</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</key>
+		<dict>
+			<key>note</key>
+			<string>clear {query}</string>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</key>
+		<dict>
+			<key>xpos</key>
+			<real>645</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>4327B136-2FAD-458C-8C88-1F2F388260A1</key>
+		<dict>
+			<key>xpos</key>
+			<real>185</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>4C791C17-8EEE-4703-B1DE-3064D926E9F6</key>
+		<dict>
+			<key>xpos</key>
+			<real>475</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</key>
+		<dict>
+			<key>xpos</key>
+			<real>800</real>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>7CA2D242-B928-4A46-A566-42187A663B76</key>
+		<dict>
+			<key>xpos</key>
+			<real>345</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>8C4555D0-460A-4EA7-ADFF-BA9C3BACDCD8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater: keep this workflow updated
+
+Check for updates: once a week</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</key>
+		<dict>
+			<key>xpos</key>
+			<real>475</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+		<key>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</key>
+		<dict>
+			<key>xpos</key>
+			<real>585</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.5</string>
+	<key>webaddress</key>
+	<string>https://github.com/mr-pennyworth/alfred-cleanshot#readme</string>
+</dict>
+</plist>

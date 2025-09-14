@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import { AnimatePresence, motion } from \"motion\/react\";",
+    "dontautoexpand" : true,
+    "uid" : "B97F1EB4-8F06-4972-BA7C-2354A2FAFB2C",
+    "name" : "animate motion",
+    "keyword" : "amm"
+  }
+}

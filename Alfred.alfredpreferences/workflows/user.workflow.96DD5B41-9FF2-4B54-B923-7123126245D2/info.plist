@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>1234</string>
+	<key>connections</key>
+	<dict>
+		<key>121E39D6-4C66-4EC6-B7D8-6BF432F6CD63</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6213228D-1FCE-46A0-BA84-12E8F9C23340</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Alfabeto aeronautico</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/System/Applications/Preview.app</string>
+				<key>sourcefile</key>
+				<string>~/Documents/Aeromexico/Documentos Generales/Alfabeto AM.png</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>6213228D-1FCE-46A0-BA84-12E8F9C23340</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>amx</string>
+				<key>subtext</key>
+				<string>Abre la imagen</string>
+				<key>text</key>
+				<string>Alfabeto Aeronáutico</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>121E39D6-4C66-4EC6-B7D8-6BF432F6CD63</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>121E39D6-4C66-4EC6-B7D8-6BF432F6CD63</key>
+		<dict>
+			<key>xpos</key>
+			<real>350</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>6213228D-1FCE-46A0-BA84-12E8F9C23340</key>
+		<dict>
+			<key>xpos</key>
+			<real>585</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string>https://rodrigogarcia.com.mx</string>
+</dict>
+</plist>

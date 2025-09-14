@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import { {cursor} } from \"@heroicons\/react\/24\/outline\";",
+    "dontautoexpand" : true,
+    "uid" : "A1CA8D27-9175-497B-A56D-CFABE32734BF",
+    "name" : "hero outline",
+    "keyword" : "herooutline"
+  }
+}

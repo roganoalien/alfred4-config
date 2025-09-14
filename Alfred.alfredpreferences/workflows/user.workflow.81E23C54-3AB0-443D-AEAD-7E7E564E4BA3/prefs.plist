@@ -4,5 +4,7 @@
 <dict>
 	<key>hostnames_only</key>
 	<false/>
+	<key>items_search_keyword</key>
+	<string>1pp</string>
 </dict>
 </plist>

@@ -14,7 +14,7 @@
         "font" : "Product Sans",
         "color" : "#969A9FFF"
       },
-      "backgroundSelected" : "#FEFFFEFF",
+      "backgroundSelected" : "#E4E7E7FF",
       "text" : {
         "size" : 15,
         "colorSelected" : "#1B1E22FF",
@@ -36,8 +36,8 @@
         "font" : "Product Sans",
         "color" : "#1B1E22FF"
       },
-      "background" : "#FEFFFEFF",
-      "roundness" : 28,
+      "background" : "#FEFFFE75",
+      "roundness" : 13,
       "paddingVertical" : 10
     },
     "window" : {

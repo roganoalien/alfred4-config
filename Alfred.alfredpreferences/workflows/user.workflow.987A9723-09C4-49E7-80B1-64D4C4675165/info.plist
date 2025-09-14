@@ -90,7 +90,7 @@
 	<key>description</key>
 	<string>Toggle bluetooth and paired device connectivity</string>
 	<key>disabled</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>Dente Azul</string>
 	<key>objects</key>
@@ -329,31 +329,6 @@ function run() {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>readonly address="${1}"
-
-[[ "${connected}" == '1' ]] &amp;&amp; blueutil --disconnect "${address}" --wait-disconnect "${address}" || blueutil --connect "${address}" --wait-connect "${address}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>92F90D27-0051-41F8-B6C1-7CED843FB32F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -451,6 +426,31 @@ function run() {
 			<string>6DC6A16C-DD83-4EBC-B2E0-625FB1BCF1AD</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly address="${1}"
+
+[[ "${connected}" == '1' ]] &amp;&amp; blueutil --disconnect "${address}" --wait-disconnect "${address}" || blueutil --connect "${address}" --wait-connect "${address}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>92F90D27-0051-41F8-B6C1-7CED843FB32F</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>

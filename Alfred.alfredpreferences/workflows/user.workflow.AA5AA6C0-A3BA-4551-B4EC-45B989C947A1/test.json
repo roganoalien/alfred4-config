@@ -1,0 +1,28 @@
+[
+	{
+		"title": "Bean.app",
+		"name": "Bean",
+		"path": "/Applications/Bean.app",
+		"icon": { "path": "/Applications/Bean.app/Contents/Resources/AppIcon.icns" }
+	},
+	{
+		"title": "Keka.app",
+		"name": "Keka",
+		"path": "/Applications/Keka.app",
+		"icon": { "path": "/Applications/Keka.app/Contents/Resources/Keka.icns" }
+	},
+	{
+		"title": "Arc.app",
+		"name": "Arc",
+		"path": "/Applications/Arc.app",
+		"icon": { "path": "/Applications/Arc.app/Contents/Resources/AppIcon.icns" }
+	},
+	{
+		"title": "Cyberduck.app",
+		"name": "Cyberduck",
+		"path": "/Applications/Cyberduck.app",
+		"icon": {
+			"path": "/Applications/Cyberduck.app/Contents/Resources/cyberduck-application-rect.icns"
+		}
+	}
+]

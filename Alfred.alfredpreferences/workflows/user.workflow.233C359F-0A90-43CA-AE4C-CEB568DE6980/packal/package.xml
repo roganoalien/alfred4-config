@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<workflow>
-  <name>TablePlus</name>
-  <version>1.0</version>
-  <bundle>com.andyjhall.alfred-tableplus</bundle>
-  <updated>1652199336</updated>
-  <file>tableplus.alfredworkflow</file>
-</workflow>

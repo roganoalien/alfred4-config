@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<workflow>
-  <name>Password Generator</name>
-  <version>1.0</version>
-  <bundle>es.nyr.password</bundle>
-  <updated>1463961701</updated>
-  <file>password_generator.alfredworkflow</file>
-</workflow>

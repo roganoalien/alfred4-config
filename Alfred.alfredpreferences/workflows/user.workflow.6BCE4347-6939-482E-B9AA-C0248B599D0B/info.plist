@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>03094924</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>0CC165A6-A812-476C-91D2-7D70BEC20220</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2D871BCB-9D4C-46C0-AB53-223674532095</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>14B3CD85-1FA6-4CA6-8CC1-F0C7F18384E9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DC327A9B-FDD9-4C2C-A44B-CEFD8E40BEE7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2D871BCB-9D4C-46C0-AB53-223674532095</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>51D89A8A-16E8-436A-8AF2-095999DFA890</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>14B3CD85-1FA6-4CA6-8CC1-F0C7F18384E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>AD1EC0C0-58C4-488C-91CA-3D5BC01ACA25</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCDC5F24-2EAD-4107-B09D-FAB2A1033E96</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>51D89A8A-16E8-436A-8AF2-095999DFA890</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D365F2AA-DA4D-46FA-A0A8-F752333F8892</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>829529E2-88C2-473C-93C0-478C033D748D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8CC9A321-656D-4971-86BD-60918B8ABF10</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8CC9A321-656D-4971-86BD-60918B8ABF10</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>85C956DB-38DC-4A2A-B8BE-A351ED3511E0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B58CB019-5453-4D5F-90A7-956E3E1C29F1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>829529E2-88C2-473C-93C0-478C033D748D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8E7DD883-23B4-4D8D-BDFA-E565478E58DE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D365F2AA-DA4D-46FA-A0A8-F752333F8892</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>71D05453-05D9-42B1-95AC-B6276F87EA4E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DC327A9B-FDD9-4C2C-A44B-CEFD8E40BEE7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B58CB019-5453-4D5F-90A7-956E3E1C29F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string>Workflow to trigger ColorSlurp app url scheme actions</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>ColorSlurp</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+cat &lt;&lt;EOF
+{
+	"items": [
+		{
+			"title": "Select in ColorSlurp",
+			"subtitle": "Select in ColorSlurp",
+			"arg": "select",
+			"icon": {
+				"path": "icons/ColorSlurp.png"
+			},
+			"uid": "select"
+		},
+		{
+			"title": "Copy to Clipboard",
+			"subtitle": "Copy to Clipboard",
+			"arg": "clipboard",
+			"icon": {
+				"path": "icons/cs-clipboard.png"
+			},
+			"uid": "clipboard"
+		}
+	]
+}
+EOF</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Trigger ColorSlurp Actions [keyword: csl]</string>
+				<key>title</key>
+				<string>ColorSlurp</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D365F2AA-DA4D-46FA-A0A8-F752333F8892</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>case $1 in
+	"select")
+		open -a "ColorSlurp" "colorslurp://show-magnifier"
+		;;
+	"clipboard")
+		open -a "ColorSlurp" "colorslurp://show-magnifier?return-color=true&amp;x-success=alfred://clipboard/clear"
+		;;
+esac</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>71D05453-05D9-42B1-95AC-B6276F87EA4E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>after pasting press Enter</string>
+				<key>text</key>
+				<string>Paste the HEX code without the #</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8CC9A321-656D-4971-86BD-60918B8ABF10</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>51D89A8A-16E8-436A-8AF2-095999DFA890</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open -a "ColorSlurp" "colorslurp://show-picker?color=$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>85C956DB-38DC-4A2A-B8BE-A351ED3511E0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>cs</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+if ./desktop-icons-visible; then
+  toggle_icons_title="Toggle Desktop Icons: Hide"
+  toggle_icons_subtitle="Hide clutter on your Desktop."
+  toggle_icons_icon_path="hide-desktop-icons.png"
+else
+  toggle_icons_title="Toggle Desktop Icons: Show"
+  toggle_icons_subtitle="Show previously hidden icons on your Desktop."
+  toggle_icons_icon_path="show-desktop-icons.png"
+fi
+
+cat &lt;&lt;EOF
+{
+	"items": [
+		{
+			"title": "Show ColorSlurp Window",
+			"subtitle": "Show Window",
+			"arg": "show-window",
+			"icon": {
+				"path": "icons/cs-window.png"
+			},
+			"uid": "show-window"
+		},
+		{
+			"title": "Show Magnifier",
+			"subtitle": "Show Magnifier",
+			"arg": "show-magnifier",
+			"icon": {
+				"path": "icons/cs-magnifier.png"
+			},
+			"uid": "show-magnifier"
+		},
+		{
+			"title": "Show Picker",
+			"subtitle": "Show Picker",
+			"arg": "show-picker",
+			"icon": {
+				"path": "icons/cs-picker.png"
+			},
+			"uid": "show-picker"
+		},
+		{
+			"title": "Show Contrast",
+			"subtitle": "Show Contrast",
+			"arg": "show-contrast",
+			"icon": {
+				"path": "icons/cs-contrast.png"
+			},
+			"uid": "show-contrast"
+		},
+		{
+			"title": "Show Palettes",
+			"subtitle": "Show Palettes",
+			"arg": "show-palettes",
+			"icon": {
+				"path": "icons/cs-palettes.png"
+			},
+			"uid": "show-palettes"
+		},
+		{
+			"title": "Show Settings",
+			"subtitle": "Show Settings",
+			"arg": "show-window",
+			"icon": {
+				"path": "icons/cs-settings.png"
+			},
+			"uid": "show-settings"
+		}
+	]
+}
+EOF</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Trigger ColorSlurp Actions [keyword: csl]</string>
+				<key>title</key>
+				<string>ColorSlurp</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0CC165A6-A812-476C-91D2-7D70BEC20220</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>magnifier</string>
+						<key>outputlabel</key>
+						<string>show-magnifier</string>
+						<key>uid</key>
+						<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>show-picker</string>
+						<key>outputlabel</key>
+						<string>show-picker</string>
+						<key>uid</key>
+						<string>AD1EC0C0-58C4-488C-91CA-3D5BC01ACA25</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>2D871BCB-9D4C-46C0-AB53-223674532095</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>14B3CD85-1FA6-4CA6-8CC1-F0C7F18384E9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>829529E2-88C2-473C-93C0-478C033D748D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+cat &lt;&lt;EOF
+{
+	"items": [
+		{
+			"title": "Use clipboard item",
+			"subtitle": "Wanna use clipboard",
+			"arg": clipboard,
+			"icon": {
+				"path": "icons/cs-clipboard.png"
+			},
+			"uid": "input_string"
+		},
+
+		{
+			"title": "Paste hex color",
+			"subtitle": "Once pasted, press Enter",
+			"arg": "pasted",
+			"icon": {
+				"path": "icons/cs-clipboard.png"
+			},
+			"uid": "input_string"
+		},
+		{
+			"title": "Just open",
+			"subtitle": "Open picker",
+			"arg": "open",
+			"icon": {
+				"path": "icons/cs-picker.png"
+			},
+			"uid": "clipboard"
+		}
+	]
+}
+EOF</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Trigger ColorSlurp Actions [keyword: csl]</string>
+				<key>title</key>
+				<string>ColorSlurp</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DC327A9B-FDD9-4C2C-A44B-CEFD8E40BEE7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open -a "ColorSlurp" "colorslurp://show-picker"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8E7DD883-23B4-4D8D-BDFA-E565478E58DE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>pasted</string>
+						<key>outputlabel</key>
+						<string>pasted</string>
+						<key>uid</key>
+						<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>B58CB019-5453-4D5F-90A7-956E3E1C29F1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>case $1 in
+	"show-window")
+		open -a "ColorSlurp" "colorslurp://show-colorslurp"
+		;;
+	"show-magnifier")
+		open -a "ColorSlurp" "colorslurp://show-magnifier"
+		;;
+	"show-picker")
+		open -a "ColorSlurp" "colorslurp://show-picker"
+		;;
+	"show-contrast")
+		open -a "ColorSlurp" "colorslurp://show-contrast"
+		;;
+	"show-palettes")
+		open -a "ColorSlurp" "colorslurp://show-palettes"
+		;;
+	"show-settings")
+		open -g "ccolorslurp://show-settings?tab=formats"
+		;;
+esac</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CCDC5F24-2EAD-4107-B09D-FAB2A1033E96</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## ColorSlurp
+
+It's configured to used the default ColorSlurp url schemes: 
+
+- Show ColorSlurp Window
+- Show Magnifier
+- Show Picker
+- Show Contrast
+- Show Palettes
+- Show Settings
+
+#### TO DO: 
+
+- [ ] Add the show magnifier callback to have the return-color. Update: there's possibly no way to do this type of thing. It would require not to close the app
+- [ x ] Open Picker with a defined color pasted in alfred or that is on clipboard
+- [ ] Dynamically add the foreground and background color for contrast
+- [ ] Dynamically select which settings tab you want to open</string>
+	<key>uidata</key>
+	<dict>
+		<key>0CC165A6-A812-476C-91D2-7D70BEC20220</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>195</real>
+		</dict>
+		<key>14B3CD85-1FA6-4CA6-8CC1-F0C7F18384E9</key>
+		<dict>
+			<key>note</key>
+			<string>clear {query}</string>
+			<key>xpos</key>
+			<real>425</real>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
+		<key>2D871BCB-9D4C-46C0-AB53-223674532095</key>
+		<dict>
+			<key>xpos</key>
+			<real>255</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>51D89A8A-16E8-436A-8AF2-095999DFA890</key>
+		<dict>
+			<key>note</key>
+			<string>clear {query}</string>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>71D05453-05D9-42B1-95AC-B6276F87EA4E</key>
+		<dict>
+			<key>xpos</key>
+			<real>705</real>
+			<key>ypos</key>
+			<real>25</real>
+		</dict>
+		<key>829529E2-88C2-473C-93C0-478C033D748D</key>
+		<dict>
+			<key>note</key>
+			<string>clear {query}</string>
+			<key>xpos</key>
+			<real>580</real>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
+		<key>85C956DB-38DC-4A2A-B8BE-A351ED3511E0</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
+		<key>8CC9A321-656D-4971-86BD-60918B8ABF10</key>
+		<dict>
+			<key>xpos</key>
+			<real>655</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>8E7DD883-23B4-4D8D-BDFA-E565478E58DE</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>B58CB019-5453-4D5F-90A7-956E3E1C29F1</key>
+		<dict>
+			<key>xpos</key>
+			<real>625</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>CCDC5F24-2EAD-4107-B09D-FAB2A1033E96</key>
+		<dict>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>410</real>
+		</dict>
+		<key>D365F2AA-DA4D-46FA-A0A8-F752333F8892</key>
+		<dict>
+			<key>xpos</key>
+			<real>510</real>
+			<key>ypos</key>
+			<real>25</real>
+		</dict>
+		<key>DC327A9B-FDD9-4C2C-A44B-CEFD8E40BEE7</key>
+		<dict>
+			<key>xpos</key>
+			<real>465</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/roganoalien/colorslurp-workflow</string>
+</dict>
+</plist>

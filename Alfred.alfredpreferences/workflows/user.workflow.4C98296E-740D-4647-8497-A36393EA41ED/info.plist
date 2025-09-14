@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>QtvBOWORwD</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string>Launcher based on Leader Key launcher but with more stuff</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>QuakQuak</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict/>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>3C5348D4-C682-444F-8238-1DB0AA2AAB22</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>3C5348D4-C682-444F-8238-1DB0AA2AAB22</key>
+		<dict>
+			<key>xpos</key>
+			<real>255</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string>https://rodrigogarcia.com.mx</string>
+</dict>
+</plist>

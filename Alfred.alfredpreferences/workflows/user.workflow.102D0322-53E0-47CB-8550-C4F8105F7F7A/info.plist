@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.krzysztof.zuraw.conventional.comments</string>
+	<key>connections</key>
+	<dict>
+		<key>1C617EB6-E129-4EC7-9435-F2175AB961B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3054805C-CD9B-4E89-918E-343511DAF59E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>45D1D631-679B-4D4F-B59E-AB3687358F8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8FAE5A7F-4422-49BB-8DE4-B24CC2587D78</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7A0297FD-BB41-4BD7-BB13-54D77D4D1E4D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45D1D631-679B-4D4F-B59E-AB3687358F8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8B1BEA0A-2817-4FDA-BEAB-0E68634F5330</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7A0297FD-BB41-4BD7-BB13-54D77D4D1E4D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8FAE5A7F-4422-49BB-8DE4-B24CC2587D78</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1C617EB6-E129-4EC7-9435-F2175AB961B0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Krzysztof Żuraw &lt;info@kzuraw.com&gt;</string>
+	<key>description</key>
+	<string>Snippet workflow for conventional comments</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Conventional comments</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>keyword</key>
+				<string>com</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.snippet</string>
+			<key>uid</key>
+			<string>8B1BEA0A-2817-4FDA-BEAB-0E68634F5330</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>**{var:label}**: {var:subject}
+
+{cursor}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>3054805C-CD9B-4E89-918E-343511DAF59E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"c0964d28d21262167bfcb942b3aab39db9d41019.png","title":"Praise","arg":"praise","subtitle":"Praises highlight something positive"},{"imagefile":"4e055b6604a4b3148f5cbb84619831523f0e37cc.png","title":"Nitpick","arg":"nitpick","subtitle":"Nitpicks are small, trivial, but necessary changes"},{"imagefile":"7446a5e1e269c77609029a6908838b95d79b3f92.png","title":"Suggestion","arg":"suggestion","subtitle":"Suggestions propose improvements to the current subject"},{"imagefile":"e08f6c9804aa928b8463ea7082334ccf47f814a9.png","title":"Issue","arg":"issue","subtitle":"Issues highlight specific problems with the subject under review"},{"imagefile":"9e1cb41392ae97fc91a7a85d7df7bc14067475cf.png","title":"Question","arg":"question","subtitle":"Questions are appropriate if you have a potential concern but are not quite sure if it's relevant or not"},{"imagefile":"dab572b4adcfb5f2548d824324e370098068f34f.png","title":"Thought","arg":"thought","subtitle":"Thoughts represent an idea that popped up from reviewing"},{"imagefile":"42c326ea5c47212b435da1e2e89c478ef2121be1.png","title":"Chore","arg":"chore","subtitle":"Chores are simple tasks that must be done before the subject can be “officially” accepted"}]</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Set comment label</string>
+				<key>title</key>
+				<string>Label is "{query}"</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>7A0297FD-BB41-4BD7-BB13-54D77D4D1E4D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Set comment subject</string>
+				<key>text</key>
+				<string>Set subject to "{query}"</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8FAE5A7F-4422-49BB-8DE4-B24CC2587D78</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>label</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>45D1D631-679B-4D4F-B59E-AB3687358F8A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>subject</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1C617EB6-E129-4EC7-9435-F2175AB961B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Alfred workflow for https://conventionalcomments.org/
+
+Before you start make sure that you edit trigger object and 
+set your own trigger like `;com`</string>
+	<key>uidata</key>
+	<dict>
+		<key>1C617EB6-E129-4EC7-9435-F2175AB961B0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>5. Store the subject in a variable.</string>
+			<key>xpos</key>
+			<real>690</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+		<key>3054805C-CD9B-4E89-918E-343511DAF59E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>5. The snippet content you selected are pasted to the frontmost app.</string>
+			<key>xpos</key>
+			<real>835</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>45D1D631-679B-4D4F-B59E-AB3687358F8A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>3. Store the label selection in a variable.</string>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>7A0297FD-BB41-4BD7-BB13-54D77D4D1E4D</key>
+		<dict>
+			<key>note</key>
+			<string>2. The list contains possible labels to choose from.</string>
+			<key>xpos</key>
+			<real>205</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>8B1BEA0A-2817-4FDA-BEAB-0E68634F5330</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>1. Tigger the workflow by typing</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>8FAE5A7F-4422-49BB-8DE4-B24CC2587D78</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>3. Type the subject. 
+
+(Argument required, so it's not accidentally left blank)</string>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/krzysztofzuraw/alfred-conventional-comments</string>
+</dict>
+</plist>

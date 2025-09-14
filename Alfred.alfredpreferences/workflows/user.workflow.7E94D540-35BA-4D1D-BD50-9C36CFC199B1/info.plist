@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>LusSXRoPrY</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>13223042-DBE9-4A1F-B894-04585F831640</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88211F6E-61C6-4CCE-BF49-105CEFCE8C8B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>88211F6E-61C6-4CCE-BF49-105CEFCE8C8B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E06DF7EA-C60D-4B78-A3B2-55F3E736B01D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BF823E90-0136-485D-857A-D8ACE39028C0</key>
+		<array/>
+		<key>F9BA9289-04CC-4AAE-84DC-2535E1013336</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>13223042-DBE9-4A1F-B894-04585F831640</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string>App Launcher</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Ducker 2.0</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import json
+import os
+
+# Path to the gridItems.json file inside the workflow folder
+# workflow_folder = os.getenv("alfred_workflow_data")
+json_file = "./items.json"
+
+# Load JSON data
+try:
+    with open(json_file, "r") as f:
+        items = json.load(f)
+except Exception as e:
+    print(json.dumps({
+        "items": [
+            {"title": "Error", "subtitle": str(e), "valid": False}
+        ]
+    }))
+    exit()
+
+# Build Alfred results
+results = {"items": []}
+for item in items:
+    results["items"].append({
+        "title": item["title"],
+        "arg": item["selection"],  # Pass the "selection" property on selection
+        "icon": {"path": item["image"]},  # Use the image path for grid view
+    })
+
+# Output results in Alfred-compatible JSON
+print(json.dumps(results))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>BF823E90-0136-485D-857A-D8ACE39028C0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F9BA9289-04CC-4AAE-84DC-2535E1013336</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>columncount</key>
+				<integer>7</integer>
+				<key>filterable</key>
+				<true/>
+				<key>fixedorder</key>
+				<false/>
+				<key>imageaspect</key>
+				<integer>0</integer>
+				<key>inputfile</key>
+				<string></string>
+				<key>inputtype</key>
+				<integer>0</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>showsubtitles</key>
+				<true/>
+				<key>showtitles</key>
+				<true/>
+				<key>subtitlesinfooter</key>
+				<false/>
+				<key>titlesinfooter</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.grid</string>
+			<key>uid</key>
+			<string>88211F6E-61C6-4CCE-BF49-105CEFCE8C8B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import json
+import os
+
+# Path to the gridItems.json file inside the workflow folder
+# workflow_folder = os.getenv("alfred_workflow_data")
+json_file = "./items.json"
+
+# Load JSON data
+try:
+    with open(json_file, "r") as f:
+        items = json.load(f)
+except Exception as e:
+    print(json.dumps({
+        "items": [
+            {"title": "Error", "subtitle": str(e), "valid": False}
+        ]
+    }))
+    exit()
+
+# Build Alfred results
+results = {"items": []}
+for item in items:
+    results["items"].append({
+        "title": item["title"],
+        "arg": item["selection"],  # Pass the "selection" property on selection
+        "icon": {"path": item["image"]},  # Use the image path for grid view
+    })
+
+# Output results in Alfred-compatible JSON
+print(json.dumps(results))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>13223042-DBE9-4A1F-B894-04585F831640</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {variables}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>E06DF7EA-C60D-4B78-A3B2-55F3E736B01D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>13223042-DBE9-4A1F-B894-04585F831640</key>
+		<dict>
+			<key>xpos</key>
+			<real>290</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>88211F6E-61C6-4CCE-BF49-105CEFCE8C8B</key>
+		<dict>
+			<key>xpos</key>
+			<real>505</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>BF823E90-0136-485D-857A-D8ACE39028C0</key>
+		<dict>
+			<key>xpos</key>
+			<real>345</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+		<key>E06DF7EA-C60D-4B78-A3B2-55F3E736B01D</key>
+		<dict>
+			<key>xpos</key>
+			<real>715</real>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>F9BA9289-04CC-4AAE-84DC-2535E1013336</key>
+		<dict>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>4</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The columns you want the ducker to have</string>
+			<key>label</key>
+			<string>Columns</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>columns</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>apps</key>
+		<string>[{"title":"Bean.app","name":"Bean","path":"/Applications/Bean.app","arg":"Bean","icon":{"path":"/Applications/Bean.app/Contents/Resources/AppIcon.icns"}},{"title":"Adobe XD.app","name":"Adobe XD","path":"/Applications/Adobe XD/Adobe XD.app","arg":"Adobe XD","icon":{"path":"/Applications/Adobe XD/Adobe XD.app/Contents/Resources/AppIcon.icns"}},{"title":"Blip.app","name":"Blip","path":"/Applications/Blip.app","arg":"Blip","icon":{"path":"/Applications/Blip.app/Contents/Resources/AppIcon.icns"}},{"title":"Bruno.app","name":"Bruno","path":"/Applications/Bruno.app","arg":"Bruno","icon":{"path":"/Applications/Bruno.app/Contents/Resources/icon.icns"}},{"title":"ColorSlurp.app","name":"ColorSlurp","path":"/Applications/ColorSlurp.app","arg":"ColorSlurp","icon":{"path":"/Applications/ColorSlurp.app/Contents/Resources/app-icon.icns"}},{"title":"Craft.app","name":"Craft","path":"/Applications/Setapp/Craft.app","arg":"Craft","icon":{"path":"/Applications/Setapp/Craft.app/Contents/Resources/AppIcon.icns"}},{"title":"Cyberduck.app","name":"Cyberduck","path":"/Applications/Cyberduck.app","arg":"Cyberduck","icon":{"path":"/Applications/Cyberduck.app/Contents/Resources/cyberduck-application-rect.icns"}},{"title":"Guitar Pro 8.app","name":"Guitar Pro 8","path":"/Applications/Guitar Pro 8.app","arg":"Guitar Pro 8","icon":{"path":"/Applications/Guitar Pro 8.app/Contents/Resources/GuitarPro.icns"}},{"title":"Keka.app","name":"Keka","path":"/Applications/Keka.app","arg":"Keka","icon":{"path":"/Applications/Keka.app/Contents/Resources/Keka.icns"}},{"title":"Logic Pro X.app","name":"Logic Pro X","path":"/Applications/Logic Pro X.app","arg":"Logic Pro X","icon":{"path":"/Applications/Logic Pro X.app/Contents/Resources/AppIcon.icns"}},{"title":"Warp.app","name":"Warp","path":"/Applications/Warp.app","arg":"Warp","icon":{"path":"/Applications/Warp.app/Contents/Resources/Warp.icns"}},{"title":"QuickRecorder.app","name":"QuickRecorder","path":"/Applications/QuickRecorder.app","arg":"QuickRecorder","icon":{"path":"/Applications/QuickRecorder.app/Contents/Resources/AppIcon.icns"}},{"title":"KeyCastr.app","name":"KeyCastr","path":"/Applications/KeyCastr.app","arg":"KeyCastr","icon":{"path":"/Applications/KeyCastr.app/Contents/Resources/KeyCastr.icns"}}]</string>
+		<key>gridsize</key>
+		<string>4</string>
+	</dict>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string>https://rodrigogarcia.com.mx</string>
+</dict>
+</plist>

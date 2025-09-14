@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Half Left",
+    "image": "icons/HalfLeft.png",
+    "selection": "HalfLeft",
+    "shortcut": "l"
+  },
+  {
+    "title": "Half Right",
+    "image": "icons/HalfRight.png",
+    "selection": "HalfRight",
+    "shortcut": "r"
+  },
+  {
+    "title": "Half Top",
+    "image": "icons/HalfTop.png",
+    "selection": "HalfTop",
+    "shortcut": "ht"
+  },
+  {
+    "title": "Half Bottom",
+    "image": "icons/HalfBottom.png",
+    "selection": "HalfBottom",
+    "shortcut": "hb"
+  },
+  {
+    "title": "Half Bottom",
+    "image": "icons/HalfBottom.png",
+    "selection": "HalfBottom",
+    "shortcut": "hb"
+  },
+  {
+    "title": "Top Left",
+    "image": "icons/TopLeft.png",
+    "selection": "TopLeft",
+    "shortcut": "tl"
+  },
+  {
+    "title": "Top Right",
+    "image": "icons/TopRight.png",
+    "selection": "TopRight",
+    "shortcut": "tr"
+  },
+  {
+    "title": "Bottom Left",
+    "image": "icons/BottomLeft.png",
+    "selection": "BottomLeft",
+    "shortcut": "bl"
+  },
+  {
+    "title": "Bottom Right",
+    "image": "icons/BottomRight.png",
+    "selection": "BottomRight",
+    "shortcut": "br"
+  },
+  {
+    "title": "Center",
+    "image": "icons/Center.png",
+    "selection": "Center",
+    "shortcut": "c"
+  },
+  {
+    "title": "Full Size",
+    "image": "icons/FullSize.png",
+    "selection": "FullSize",
+    "shortcut": "f"
+  },
+  {
+    "title": "Fullscreen",
+    "image": "icons/Fullscreen.png",
+    "selection": "Fullscreen",
+    "shortcut": "fs"
+  },
+  {
+    "title": "Fullscreen Right",
+    "image": "icons/FullScreenRight.png",
+    "selection": "FullScreenRight",
+    "shortcut": "fsl"
+  },
+  {
+    "title": "Fullscreen Left",
+    "image": "icons/FullScreenLeft.png",
+    "selection": "FullScreenLeft",
+    "shortcut": "fsr"
+  }
+]

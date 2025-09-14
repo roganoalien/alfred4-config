@@ -36,8 +36,8 @@
         "font" : "Product Sans",
         "color" : "#E5E8EBFF"
       },
-      "background" : "#2F3135FF",
-      "roundness" : 28,
+      "background" : "#2F313542",
+      "roundness" : 13,
       "paddingVertical" : 10
     },
     "window" : {

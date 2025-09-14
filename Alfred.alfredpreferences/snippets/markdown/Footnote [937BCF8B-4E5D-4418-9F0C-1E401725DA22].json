@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "[^{cursor}]",
+    "dontautoexpand" : true,
+    "uid" : "937BCF8B-4E5D-4418-9F0C-1E401725DA22",
+    "name" : "Footnote",
+    "keyword" : "mdf"
+  }
+}

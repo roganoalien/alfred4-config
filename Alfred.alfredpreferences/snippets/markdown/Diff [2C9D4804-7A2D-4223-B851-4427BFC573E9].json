@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "```diff\n- {cursor}\n+ \n```",
+    "dontautoexpand" : true,
+    "uid" : "2C9D4804-7A2D-4223-B851-4427BFC573E9",
+    "name" : "Diff",
+    "keyword" : "mdd"
+  }
+}

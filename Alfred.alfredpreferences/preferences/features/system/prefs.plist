@@ -10,9 +10,13 @@
 	<true/>
 	<key>logoutConfirm</key>
 	<true/>
+	<key>quitallConfirm</key>
+	<true/>
 	<key>restartConfirm</key>
 	<true/>
 	<key>shutdownConfirm</key>
+	<true/>
+	<key>sleepConfirm</key>
 	<true/>
 	<key>volumedownKeywordEnabled</key>
 	<false/>

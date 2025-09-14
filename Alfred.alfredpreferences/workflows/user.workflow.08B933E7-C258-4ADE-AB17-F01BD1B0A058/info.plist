@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>1E7BF10C-EC03-4A95-A33D-25BE39F2EC13</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AD06006F-71F6-4731-9942-D0697E95329A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>63611A99-79C1-437F-9440-06BD78E1A17F</key>
 		<array>
 			<dict>
@@ -50,6 +63,18 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>610DE0F3-839B-45D4-85E1-CFC53469DD66</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>86F92945-C294-4CF8-99CB-6C621052A87F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>63611A99-79C1-437F-9440-06BD78E1A17F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -80,7 +105,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "$event_conference_url"</string>
+				<string>/usr/bin/python3 -m ocu.open_event "$event_conference_url" || xcode-select --install</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -98,6 +123,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>'{query}', {variables}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>610DE0F3-839B-45D4-85E1-CFC53469DD66</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -111,7 +153,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>conf</string>
+				<string>{var:conf_keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -143,6 +185,31 @@
 			<string>AD06006F-71F6-4731-9942-D0697E95329A</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1E7BF10C-EC03-4A95-A33D-25BE39F2EC13</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -222,41 +289,76 @@ The workflow also accounts for timezones and Daylight Saving Time (DST). All tim
 		<key>09CA121B-D8B4-4ABF-AB14-039EE9CA5965</key>
 		<dict>
 			<key>xpos</key>
-			<real>600</real>
+			<real>685</real>
 			<key>ypos</key>
-			<real>170</real>
+			<real>145</real>
+		</dict>
+		<key>1E7BF10C-EC03-4A95-A33D-25BE39F2EC13</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>80</real>
+		</dict>
+		<key>610DE0F3-839B-45D4-85E1-CFC53469DD66</key>
+		<dict>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>20</real>
 		</dict>
 		<key>63611A99-79C1-437F-9440-06BD78E1A17F</key>
 		<dict>
 			<key>xpos</key>
-			<real>440</real>
+			<real>525</real>
 			<key>ypos</key>
-			<real>170</real>
+			<real>145</real>
 		</dict>
 		<key>AD06006F-71F6-4731-9942-D0697E95329A</key>
 		<dict>
 			<key>xpos</key>
-			<real>95</real>
+			<real>180</real>
 			<key>ypos</key>
-			<real>105</real>
+			<real>80</real>
 		</dict>
 		<key>CAD3A45C-8496-4F9C-9FD8-78677008FBA5</key>
 		<dict>
 			<key>xpos</key>
-			<real>265</real>
+			<real>350</real>
 			<key>ypos</key>
-			<real>125</real>
+			<real>100</real>
 		</dict>
 		<key>F69A44DF-57DE-4713-BACA-8EDFBFE14FF6</key>
 		<dict>
 			<key>xpos</key>
-			<real>440</real>
+			<real>525</real>
 			<key>ypos</key>
-			<real>40</real>
+			<real>15</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>conf</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The keyword used to launch the workflow.</string>
+			<key>label</key>
+			<string>keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>conf_keyword</string>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -357,6 +459,46 @@ uberconference.com</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>Bypass browser when opening Google Meet links</string>
+			</dict>
+			<key>description</key>
+			<string>Whether to open Google Meet links directly in the Google Meet Desktop app instead of a web browser. This would require installation through WebCatalog or a similar platform.</string>
+			<key>label</key>
+			<string>Use Direct Google Meet Links</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>use_direct_gmeet</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>Google Meet</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The name of the Google Meet Desktop application. It's provided here for any dynamic needs.</string>
+			<key>label</key>
+			<string>Google Meet Desktop Application Name</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>gmeet_app_name</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>Bypass browser when opening Microsoft Teams links</string>
 			</dict>
 			<key>description</key>
@@ -414,8 +556,10 @@ uberconference.com</string>
 			<string>time_system</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>7.1.4</string>
+	<string>7.3.0</string>
 	<key>webaddress</key>
 	<string>calebevans.me</string>
 </dict>

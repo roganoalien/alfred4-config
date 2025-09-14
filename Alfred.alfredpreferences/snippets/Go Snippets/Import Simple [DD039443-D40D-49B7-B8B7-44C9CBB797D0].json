@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"package\"",
+    "uid" : "DD039443-D40D-49B7-B8B7-44C9CBB797D0",
+    "name" : "Import Simple",
+    "keyword" : "imports"
+  }
+}

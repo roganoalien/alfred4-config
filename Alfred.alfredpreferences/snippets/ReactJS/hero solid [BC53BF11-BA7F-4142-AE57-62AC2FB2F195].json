@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import { {cursor} } from \"@heroicons\/react\/24\/solid\";",
+    "dontautoexpand" : true,
+    "uid" : "BC53BF11-BA7F-4142-AE57-62AC2FB2F195",
+    "name" : "hero solid",
+    "keyword" : "herosolid"
+  }
+}

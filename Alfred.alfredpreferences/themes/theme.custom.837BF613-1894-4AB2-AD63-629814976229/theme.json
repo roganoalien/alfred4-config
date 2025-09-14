@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#D9D9D9C4",
+        "font" : "MesloLGL Nerd Font",
+        "color" : "#DCDCDC4B"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "MesloLGL Nerd Font",
+        "color" : "#B3B4B777"
+      },
+      "backgroundSelected" : "#D8D5D629",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "MesloLGL Nerd Font",
+        "color" : "#FFFFFFBC"
+      },
+      "iconPaddingHorizontal" : 12,
+      "roundness" : 6,
+      "paddingVertical" : 10,
+      "iconSize" : 36
+    },
+    "search" : {
+      "backgroundSelected" : "#48006900",
+      "paddingHorizontal" : 8,
+      "spacing" : 8,
+      "text" : {
+        "size" : 26,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "MesloLGL Nerd Font",
+        "color" : "#FFFFFFFF"
+      },
+      "background" : "#0000000C",
+      "roundness" : 16,
+      "paddingVertical" : 5
+    },
+    "window" : {
+      "color" : "#3B3B3B71",
+      "paddingHorizontal" : 10,
+      "width" : 590,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 0,
+      "roundness" : 16,
+      "paddingVertical" : 9
+    },
+    "credit" : "Rodrigo García",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#FCFBFF2F",
+      "thickness" : 2
+    },
+    "name" : "Raycast theme"
+  }
+}

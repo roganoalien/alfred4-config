@@ -8,5 +8,9 @@
 	<string>Rodrigo García</string>
 	<key>defaultWebsite</key>
 	<string>https://rodrigogarcia.com.mx</string>
+	<key>showAlignmentGuides</key>
+	<true/>
+	<key>showCanvasHints</key>
+	<false/>
 </dict>
 </plist>

@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.thisduck</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>0A7F37A1-3D5E-477D-BA30-D53CDEF5FE00</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EE606F4A-3790-4323-B934-2BA0C6FB8D3C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0C3CA8A5-E6E8-441C-B609-BD0E66221A59</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB5F7B10-2424-45CA-AC2C-3C88643B28B6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3F83EBCD-FA06-4AFC-B700-209C9FDFEB0F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>531DD3D4-B505-46C9-B69C-D6017AC8F087</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>496FCB10-99CB-4E35-9DBB-222184FED19F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6DEB9393-56E9-4733-96A1-295CA8D68A64</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>531DD3D4-B505-46C9-B69C-D6017AC8F087</key>
+		<array/>
+		<key>6DEB9393-56E9-4733-96A1-295CA8D68A64</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B27B6A6-D6ED-4DDB-988A-5516D4D985FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6F7D56AD-1C6A-4EEA-BDA6-4F7108919496</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C3CA8A5-E6E8-441C-B609-BD0E66221A59</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7D11BEDD-AD11-42CB-B6EB-E1EDB0D01F66</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B27B6A6-D6ED-4DDB-988A-5516D4D985FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8BB46C13-B3C7-41A6-85B0-CF6E12133E06</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A614F6E5-F918-4F31-9F8B-9FD13FE23A5C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C4ED2BFC-2022-4D4E-AEE9-06A4B382AAF2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>369292F5-C5AD-4525-A3C8-F9AA6581B172</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DD5E472A-CBAA-4DC8-9BCF-7D0EF5A5EAE2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4D3F1196-233E-4EE5-84C4-F3863207A91B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B003DA92-3BC6-4D49-9E2B-DB608FFD4CC5</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>496FCB10-99CB-4E35-9DBB-222184FED19F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D1EF2BC2-E89F-4692-99F1-0D6B82F32A6E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A7F37A1-3D5E-477D-BA30-D53CDEF5FE00</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8BB46C13-B3C7-41A6-85B0-CF6E12133E06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>35DCECC4-C796-48A5-8DD3-AD5E281A7335</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DF497725-67A8-4D60-9342-52F2A6A8DA35</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A7F37A1-3D5E-477D-BA30-D53CDEF5FE00</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E2536C59-FCE7-4820-BB39-28627664F8DF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DD5E472A-CBAA-4DC8-9BCF-7D0EF5A5EAE2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EB5F7B10-2424-45CA-AC2C-3C88643B28B6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F83EBCD-FA06-4AFC-B700-209C9FDFEB0F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EE606F4A-3790-4323-B934-2BA0C6FB8D3C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4ED2BFC-2022-4D4E-AEE9-06A4B382AAF2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string>Replace MacOS dock</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Ducker</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>All apps have been removed!</string>
+				<key>title</key>
+				<string>Ducker reset!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>1B27B6A6-D6ED-4DDB-988A-5516D4D985FA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>config</string>
+						<key>outputlabel</key>
+						<string>config</string>
+						<key>uid</key>
+						<string>B003DA92-3BC6-4D49-9E2B-DB608FFD4CC5</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>grid</string>
+						<key>outputlabel</key>
+						<string>grid</string>
+						<key>uid</key>
+						<string>35DCECC4-C796-48A5-8DD3-AD5E281A7335</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>reset</string>
+						<key>outputlabel</key>
+						<string>reset</string>
+						<key>uid</key>
+						<string>D1EF2BC2-E89F-4692-99F1-0D6B82F32A6E</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>setapps</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>DD5E472A-CBAA-4DC8-9BCF-7D0EF5A5EAE2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>configDuck</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading, please wait...</string>
+				<key>script</key>
+				<string>ObjC.import('stdlib');
+const gridsize = $.getenv('gridsize');
+const apps = $.getenv('apps');
+
+const options = [
+    { title: "Grid size", subtitle: gridsize },
+    { title: "Apps selected", subtitle: apps }
+];
+
+// Function to generate JSON output
+function generateJSON(options) {
+    const items = options.map(option =&gt; ({
+        title: option.title,
+        subtitle: option.subtitle,
+        arg: option.title // Adjust the argument as needed
+    }));
+
+    return JSON.stringify({ items });
+}
+
+// Output JSON
+generateJSON(options);</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Displays the config saved of the workflow</string>
+				<key>title</key>
+				<string>Config</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4D3F1196-233E-4EE5-84C4-F3863207A91B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>setapps</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading, please wait</string>
+				<key>script</key>
+				<string>import os
+import json
+import sys
+
+def get_app_info(apps_dir, app_setapp_dir, filter_keyword):
+    app_info = []
+
+    # Function to get icon path for an app
+    def get_icon_path(app_path):
+        icon_path = os.path.join(app_path, 'Contents', 'Resources', 'AppIcon.icns')
+        if os.path.exists(icon_path):
+            return icon_path
+        else:
+            return None
+
+    # Fetch apps from the first directory
+    for app_name in os.listdir(apps_dir):
+        app_path = os.path.join(apps_dir, app_name)
+        if app_name.endswith('.app') and os.path.isdir(app_path):
+            if filter_keyword is None or filter_keyword.lower() in app_name.lower():
+                icon_path = get_icon_path(app_path)
+                if icon_path:
+                    app_info.append({"title": os.path.splitext(app_name)[0], "icon": {"path": icon_path}})
+
+    # Fetch apps from the second directory
+    for app_name in os.listdir(app_setapp_dir):
+        app_path = os.path.join(app_setapp_dir, app_name)
+        if app_name.endswith('.app') and os.path.isdir(app_path):
+            if filter_keyword is None or filter_keyword.lower() in app_name.lower():
+                icon_path = get_icon_path(app_path)
+                if icon_path:
+                    app_info.append({"title": os.path.splitext(app_name)[0], "icon": {"path": icon_path}})
+
+    # Sort the app_info array alphabetically by title
+    app_info.sort(key=lambda x: x["title"])
+
+    return app_info
+
+def main():
+    apps_dir = "/Applications"
+    app_setapp_dir = "/Applications/Setapp"
+    
+    # Get the filter keyword from the command line argument
+    filter_keyword = sys.argv[1] if len(sys.argv) &gt; 1 else None
+
+    app_info = get_app_info(apps_dir, app_setapp_dir, filter_keyword)
+
+    # Format the output as JSON
+    output = {"items": app_info}
+
+    # Output the JSON
+    print(json.dumps(output))
+
+if __name__ == "__main__":
+    main()</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select the apps you want to add to dock</string>
+				<key>title</key>
+				<string>This Duck!</string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D7BBD649-3340-4B47-A349-7339B4CD8C83</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"imagefile":"dd942400198c6fabbdd107167d26f931180e1177.png","title":"Reset selected apps","arg":"reset","subtitle":"removes all apps you've added"},{"imagefile":"3510905b68283a47e00ac72839fabb8aa24b88de.png","title":"Show config","arg":"config","subtitle":"Shows current configuration"},{"imagefile":"b85ff4e602f4c50758260215657c11034565ef22.png","title":"Set Grid Size","arg":"grid","subtitle":"Select the grid you want to use"},{"imagefile":"ce3abfc419a14ce2b96b016cf80fc3239654e98d.png","title":"Add apps","arg":"setapps","subtitle":"Add the apps on your grid by order"}]</string>
+				<key>keyword</key>
+				<string>ducker</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select the grid you want to use or review your configuration</string>
+				<key>title</key>
+				<string>Select what you want to do</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>E2536C59-FCE7-4820-BB39-28627664F8DF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>Application('com.runningwithcrayons.Alfred').setConfiguration('apps', {
+    toValue: "[]",
+    inWorkflow: 'com.thisduck',
+    exportable: true
+});</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6DEB9393-56E9-4733-96A1-295CA8D68A64</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Yes</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>You're about to remove all apps added to the duck</string>
+				<key>title</key>
+				<string>Are you sure?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>496FCB10-99CB-4E35-9DBB-222184FED19F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>add_one_more</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>369292F5-C5AD-4525-A3C8-F9AA6581B172</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>ObjC.import("stdlib");
+var savedApps = $.getenv("apps");
+const parsedApps = JSON.parse(savedApps);
+
+parsedApps.push({query});
+
+Application('com.runningwithcrayons.Alfred').setConfiguration('apps', {
+    toValue: JSON.stringify(parsedApps),
+    inWorkflow: 'com.thisduck',
+    exportable: true
+});</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C4ED2BFC-2022-4D4E-AEE9-06A4B382AAF2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>add_one_more</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>DF497725-67A8-4D60-9342-52F2A6A8DA35</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>setapps</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading apps, please wait...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select the apps you want to add to dock</string>
+				<key>title</key>
+				<string>This Duck!</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EE606F4A-3790-4323-B934-2BA0C6FB8D3C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0A7F37A1-3D5E-477D-BA30-D53CDEF5FE00</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"imagefile":"73206aca6ccc334d14bc5d68b426469a123c11b7.png","title":"Configured","arg":"{gridsize}","subtitle":"The one that has already been selected"},{"imagefile":"53d71aecd8e91f5688b3a0a98fad693b371bd1c4.png","title":"Grid of 4","arg":"4","subtitle":"A single line of 4 apps"},{"imagefile":"2a0b8d5eecc292d2cd92ee51bd979af5f10168da.png","title":"Grid of 8","arg":"8","subtitle":"Two lines of 4 apps each"},{"imagefile":"41bd2f3917e45089b3e1635b3e0f1c103a1f7410.png","title":"Grid of 12","arg":"12","subtitle":"Three lines of 4 apps each"},{"imagefile":"fdbb3bb2b79acb34e772fe9471408e79579ecdc0.png","title":"Grid of 16","arg":"16","subtitle":"Four lines of 4 apps each"},{"imagefile":"4a7897df7b8a8cd7b4b2765a500b1a00fad4fdba.png","title":"Grid of 20","arg":"20","subtitle":"Five lines of 4 apps each"}]</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select the grid you want to use</string>
+				<key>title</key>
+				<string>Duck Grid Size</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>8BB46C13-B3C7-41A6-85B0-CF6E12133E06</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function run() {
+  var query = "{query}";
+  return query;
+}
+
+Application('com.runningwithcrayons.Alfred').setConfiguration('gridsize', {
+    toValue: run(),
+    inWorkflow: 'com.thisduck',
+    exportable: true
+});</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A614F6E5-F918-4F31-9F8B-9FD13FE23A5C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+
+# Define the output JSON file
+output_file="mac_apps.json"
+
+# Initialize an empty array to store app information
+app_list=()
+
+# Function to get icon path
+get_icon_path() {
+    local app_path="$1"
+    local icon_name
+    icon_name=$(defaults read "$app_path/Contents/Info.plist" CFBundleIconFile 2&gt;/dev/null)
+    if [ -n "$icon_name" ]; then
+        # Check if icon_name already has .icns extension
+        if [[ "$icon_name" != *".icns" ]]; then
+            icon_name="$icon_name.icns"
+        fi
+        echo "$app_path/Contents/Resources/$icon_name"
+    else
+        echo "$app_path/Contents/Resources/app.icns"  # Default icon path if CFBundleIconFile is not found
+    fi
+}
+
+# Search for applications using mdfind
+while IFS= read -r app_path; do
+    # Get the app name
+    app_name=$(basename "$app_path")
+
+    # Get the icon path
+    icon_path=$(get_icon_path "$app_path")
+
+    # Add app information to the array
+    app_list+=("{\"title\":\"$app_name\",\"path\":\"$app_path\",\"icon\":{\"path\":\"$icon_path\"}}")
+done &lt; &lt;(mdfind "kMDItemContentType == 'com.apple.application-bundle'" 2&gt;/dev/null)
+
+# Convert the array to JSON
+json_output=$(printf '[%s\n]' "$(IFS=,; echo "${app_list[*]}")")
+
+# Write JSON output to file
+echo "$json_output" &gt; "$output_file"
+
+echo "App information saved to $output_file"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7D11BEDD-AD11-42CB-B6EB-E1EDB0D01F66</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"7f07ed8b939c7e2ae346584e8a17cd4f3b3e51c1.png","title":"Yes","arg":"yes","subtitle":"goes back to add another app"},{"imagefile":"b3de0c517b1abd386faf1cb2f1bb20fadc34f699.png","title":"No","arg":"no","subtitle":"closes this dialog"}]</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>you'll return to the app list or finish</string>
+				<key>title</key>
+				<string>Add another app to the duck</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>E9FD5808-BDAF-4BA4-B625-71A2A810084F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+  set selectedApp to item 1 of argv
+  log selectedApp
+  tell application selectedApp to activate
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>531DD3D4-B505-46C9-B69C-D6017AC8F087</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6F7D56AD-1C6A-4EEA-BDA6-4F7108919496</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>columncount</key>
+				<integer>6</integer>
+				<key>filterable</key>
+				<true/>
+				<key>fixedorder</key>
+				<false/>
+				<key>imageaspect</key>
+				<integer>0</integer>
+				<key>inputfile</key>
+				<string></string>
+				<key>inputtype</key>
+				<integer>0</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>showsubtitles</key>
+				<false/>
+				<key>showtitles</key>
+				<true/>
+				<key>subtitlesinfooter</key>
+				<false/>
+				<key>titlesinfooter</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.grid</string>
+			<key>uid</key>
+			<string>3F83EBCD-FA06-4AFC-B700-209C9FDFEB0F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>ObjC.import("stdlib");
+var savedApps = $.getenv("apps");
+const parsedApps = JSON.parse(savedApps);
+
+JSON.stringify({ 
+  items: parsedApps,
+  config : {
+      columncount: 4 
+  }
+});</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0C3CA8A5-E6E8-441C-B609-BD0E66221A59</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "columncount" : "{var:columns}"
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>EB5F7B10-2424-45CA-AC2C-3C88643B28B6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0A7F37A1-3D5E-477D-BA30-D53CDEF5FE00</key>
+		<dict>
+			<key>xpos</key>
+			<real>180</real>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>0C3CA8A5-E6E8-441C-B609-BD0E66221A59</key>
+		<dict>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>450</real>
+		</dict>
+		<key>1B27B6A6-D6ED-4DDB-988A-5516D4D985FA</key>
+		<dict>
+			<key>xpos</key>
+			<real>1180</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>369292F5-C5AD-4525-A3C8-F9AA6581B172</key>
+		<dict>
+			<key>xpos</key>
+			<real>585</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>3F83EBCD-FA06-4AFC-B700-209C9FDFEB0F</key>
+		<dict>
+			<key>xpos</key>
+			<real>455</real>
+			<key>ypos</key>
+			<real>450</real>
+		</dict>
+		<key>496FCB10-99CB-4E35-9DBB-222184FED19F</key>
+		<dict>
+			<key>xpos</key>
+			<real>930</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>4D3F1196-233E-4EE5-84C4-F3863207A91B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>------ READY ------ Only Shows the configured options that were saved in environment variables</string>
+			<key>xpos</key>
+			<real>785</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>531DD3D4-B505-46C9-B69C-D6017AC8F087</key>
+		<dict>
+			<key>xpos</key>
+			<real>635</real>
+			<key>ypos</key>
+			<real>450</real>
+		</dict>
+		<key>6DEB9393-56E9-4733-96A1-295CA8D68A64</key>
+		<dict>
+			<key>xpos</key>
+			<real>1020</real>
+			<key>ypos</key>
+			<real>35</real>
+		</dict>
+		<key>6F7D56AD-1C6A-4EEA-BDA6-4F7108919496</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>450</real>
+		</dict>
+		<key>7D11BEDD-AD11-42CB-B6EB-E1EDB0D01F66</key>
+		<dict>
+			<key>xpos</key>
+			<real>1140</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
+		<key>8BB46C13-B3C7-41A6-85B0-CF6E12133E06</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>------ READY ------ Sets the environment variable of gridsize that lets the user select which gridsize will use</string>
+			<key>xpos</key>
+			<real>785</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>A614F6E5-F918-4F31-9F8B-9FD13FE23A5C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>------ READY ------ Saves the selected option from the list filter in gridsize environment variable</string>
+			<key>xpos</key>
+			<real>960</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>C4ED2BFC-2022-4D4E-AEE9-06A4B382AAF2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>------ READY ------ Saves the selected option from the list filter in gridsize environment variable</string>
+			<key>xpos</key>
+			<real>425</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>D7BBD649-3340-4B47-A349-7339B4CD8C83</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>-------- WIP -------- This one shows all apps, gets their name and icon and returns a list of all of them. Also can filter the output based on an argument after the keyword 
+
+------- PYTHON -------</string>
+			<key>xpos</key>
+			<real>1355</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>DD5E472A-CBAA-4DC8-9BCF-7D0EF5A5EAE2</key>
+		<dict>
+			<key>xpos</key>
+			<real>185</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>DF497725-67A8-4D60-9342-52F2A6A8DA35</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>E2536C59-FCE7-4820-BB39-28627664F8DF</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>E9FD5808-BDAF-4BA4-B625-71A2A810084F</key>
+		<dict>
+			<key>xpos</key>
+			<real>1385</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+		<key>EB5F7B10-2424-45CA-AC2C-3C88643B28B6</key>
+		<dict>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+		<key>EE606F4A-3790-4323-B934-2BA0C6FB8D3C</key>
+		<dict>
+			<key>note</key>
+			<string>-------- WIP -------- Work in progress, it displays all the fetched apps but does not filter them nor adds them. BUG: Some icon images does not show</string>
+			<key>xpos</key>
+			<real>255</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>4</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The columns you want the ducker to have</string>
+			<key>label</key>
+			<string>Columns</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>columns</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>apps</key>
+		<string>[{"title":"Bean.app","name":"Bean","path":"/Applications/Bean.app","arg":"Bean","icon":{"path":"/Applications/Bean.app/Contents/Resources/AppIcon.icns"}},{"title":"Adobe XD.app","name":"Adobe XD","path":"/Applications/Adobe XD/Adobe XD.app","arg":"Adobe XD","icon":{"path":"/Applications/Adobe XD/Adobe XD.app/Contents/Resources/AppIcon.icns"}},{"title":"Blip.app","name":"Blip","path":"/Applications/Blip.app","arg":"Blip","icon":{"path":"/Applications/Blip.app/Contents/Resources/AppIcon.icns"}},{"title":"Bruno.app","name":"Bruno","path":"/Applications/Bruno.app","arg":"Bruno","icon":{"path":"/Applications/Bruno.app/Contents/Resources/icon.icns"}},{"title":"ColorSlurp.app","name":"ColorSlurp","path":"/Applications/ColorSlurp.app","arg":"ColorSlurp","icon":{"path":"/Applications/ColorSlurp.app/Contents/Resources/app-icon.icns"}},{"title":"Craft.app","name":"Craft","path":"/Applications/Setapp/Craft.app","arg":"Craft","icon":{"path":"/Applications/Setapp/Craft.app/Contents/Resources/AppIcon.icns"}},{"title":"Cyberduck.app","name":"Cyberduck","path":"/Applications/Cyberduck.app","arg":"Cyberduck","icon":{"path":"/Applications/Cyberduck.app/Contents/Resources/cyberduck-application-rect.icns"}},{"title":"Guitar Pro 8.app","name":"Guitar Pro 8","path":"/Applications/Guitar Pro 8.app","arg":"Guitar Pro 8","icon":{"path":"/Applications/Guitar Pro 8.app/Contents/Resources/GuitarPro.icns"}},{"title":"Keka.app","name":"Keka","path":"/Applications/Keka.app","arg":"Keka","icon":{"path":"/Applications/Keka.app/Contents/Resources/Keka.icns"}},{"title":"Logic Pro X.app","name":"Logic Pro X","path":"/Applications/Logic Pro X.app","arg":"Logic Pro X","icon":{"path":"/Applications/Logic Pro X.app/Contents/Resources/AppIcon.icns"}},{"title":"Warp.app","name":"Warp","path":"/Applications/Warp.app","arg":"Warp","icon":{"path":"/Applications/Warp.app/Contents/Resources/Warp.icns"}},{"title":"QuickRecorder.app","name":"QuickRecorder","path":"/Applications/QuickRecorder.app","arg":"QuickRecorder","icon":{"path":"/Applications/QuickRecorder.app/Contents/Resources/AppIcon.icns"}},{"title":"KeyCastr.app","name":"KeyCastr","path":"/Applications/KeyCastr.app","arg":"KeyCastr","icon":{"path":"/Applications/KeyCastr.app/Contents/Resources/KeyCastr.icns"}}]</string>
+		<key>gridsize</key>
+		<string>4</string>
+	</dict>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string>https://rodrigogarcia.com.mx</string>
+</dict>
+</plist>
