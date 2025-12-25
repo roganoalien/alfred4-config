@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "if err != nil {\n\tlog.Panic(err)\n}",
+    "uid" : "587981AB-8BCD-4DA3-B492-9751E5E1EA46",
+    "name" : "Error handler",
+    "keyword" : "error"
+  }
+}

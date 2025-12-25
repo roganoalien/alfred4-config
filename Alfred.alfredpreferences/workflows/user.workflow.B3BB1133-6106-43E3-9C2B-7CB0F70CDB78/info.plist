@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>aeronauticabc</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>124B8030-5024-4852-ABA1-C0FE84B8F861</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F8B72355-D5F2-4CF2-8465-F0DD3DAFC685</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1CAFCC06-9088-4EDA-93B3-DAB0716D1B9D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6BE14049-9921-4216-B2F3-00ECBD090C93</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6BE14049-9921-4216-B2F3-00ECBD090C93</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9EB43EAD-99BD-4BD6-B997-9AA528D4B6FC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>842ED55D-6B5F-4F4F-8A66-4BAF2CD42AD1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>124B8030-5024-4852-ABA1-C0FE84B8F861</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ABBB4A22-D780-4AB3-B946-4E4301212EAB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1CAFCC06-9088-4EDA-93B3-DAB0716D1B9D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Rodrigo García</string>
+	<key>description</key>
+	<string>Displays the aeronautic ABC</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Aeronautic ABC</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>{var:return_word}</string>
+				<key>subtext</key>
+				<string>This will transform a word or multiple into aeronautic alphabet</string>
+				<key>text</key>
+				<string>Transform into alphabet</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>842ED55D-6B5F-4F4F-8A66-4BAF2CD42AD1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>2</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>50</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>F8B72355-D5F2-4CF2-8465-F0DD3DAFC685</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/usr/bin/env python3
+import sys
+import json
+
+# NATO Phonetic Alphabet mapping
+nato = {
+    "A": "Alpha", "B": "Bravo", "C": "Charlie", "D": "Delta", "E": "Echo",
+    "F": "Foxtrot", "G": "Golf", "H": "Hotel", "I": "India", "J": "Juliett",
+    "K": "Kilo", "L": "Lima", "M": "Mike", "N": "November", "O": "Oscar",
+    "P": "Papa", "Q": "Quebec", "R": "Romeo", "S": "Sierra", "T": "Tango",
+    "U": "Uniform", "V": "Victor", "W": "Whiskey", "X": "X-ray", "Y": "Yankee",
+    "Z": "Zulu"
+}
+
+# Get the input query from Alfred
+if len(sys.argv) &gt; 1:
+    query = sys.argv[1]
+else:
+    query = ""
+
+# Split query into words
+words = query.strip().split()
+
+# Convert each word to its phonetic equivalent
+converted_words = []
+for word in words:
+    phonetic_letters = []
+    for char in word.upper():
+        if char in nato:
+            phonetic_letters.append(nato[char])
+        else:
+            phonetic_letters.append(char)  # keep symbols/numbers
+    converted_words.append("-".join(phonetic_letters))
+
+# Join converted words back into a phrase
+final_output = "---".join(converted_words)
+
+print(final_output)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>124B8030-5024-4852-ABA1-C0FE84B8F861</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>9EB43EAD-99BD-4BD6-B997-9AA528D4B6FC</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/usr/bin/env python3
+import os
+import json
+
+alphabet = [
+    ("A", "Alpha", "icons/a.png"), ("B", "Bravo", "icons/b.png"), ("C", "Charlie", "icons/c.png"),
+    ("D", "Delta", "icons/d.png"), ("E", "Echo", "icons/e.png"), ("F", "Foxtrot", "icons/f.png"),
+    ("G", "Golf", "icons/g.png"), ("H", "Hotel", "icons/h.png"), ("I", "India", "icons/i.png"),
+    ("J", "Juliett", "icons/j.png"), ("K", "Kilo", "icons/k.png"), ("L", "Lima", "icons/l.png"),
+    ("M", "Mike", "icons/m.png"), ("N", "November", "icons/n.png"), ("O", "Oscar", "icons/o.png"),
+    ("P", "Papa", "icons/p.png"), ("Q", "Quebec", "icons/q.png"), ("R", "Romeo", "icons/r.png"),
+    ("S", "Sierra", "icons/s.png"), ("T", "Tango", "icons/t.png"), ("U", "Uniform", "icons/u.png"),
+    ("V", "Victor", "icons/v.png"), ("W", "Whiskey", "icons/w.png"), ("X", "X-ray", "icons/x.png"),
+    ("Y", "Yankee", "icons/y.png"), ("Z", "Zulu", "icons/z.png")
+]
+
+items = []
+for letter, word, icon in alphabet:
+    items.append({
+        "title": f"{letter}",
+        "subtitle": f"{word}",
+        "arg": word,
+        "icon": {
+            "path": f"{icon}"
+        }
+    })
+
+print(json.dumps({"items": items}))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1CAFCC06-9088-4EDA-93B3-DAB0716D1B9D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>columncount</key>
+				<integer>7</integer>
+				<key>filterable</key>
+				<true/>
+				<key>fixedorder</key>
+				<true/>
+				<key>imageaspect</key>
+				<integer>0</integer>
+				<key>inputfile</key>
+				<string></string>
+				<key>inputtype</key>
+				<integer>0</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>showsubtitles</key>
+				<true/>
+				<key>showtitles</key>
+				<true/>
+				<key>subtitlesinfooter</key>
+				<false/>
+				<key>titlesinfooter</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.grid</string>
+			<key>uid</key>
+			<string>6BE14049-9921-4216-B2F3-00ECBD090C93</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:main_keyboard}</string>
+				<key>subtext</key>
+				<string>Show the NATO phonetica alphabet</string>
+				<key>text</key>
+				<string>Aeronautical Alphabet</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>ABBB4A22-D780-4AB3-B946-4E4301212EAB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>124B8030-5024-4852-ABA1-C0FE84B8F861</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>1CAFCC06-9088-4EDA-93B3-DAB0716D1B9D</key>
+		<dict>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>875</real>
+		</dict>
+		<key>6BE14049-9921-4216-B2F3-00ECBD090C93</key>
+		<dict>
+			<key>xpos</key>
+			<real>400</real>
+			<key>ypos</key>
+			<real>875</real>
+		</dict>
+		<key>842ED55D-6B5F-4F4F-8A66-4BAF2CD42AD1</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>9EB43EAD-99BD-4BD6-B997-9AA528D4B6FC</key>
+		<dict>
+			<key>xpos</key>
+			<real>595</real>
+			<key>ypos</key>
+			<real>875</real>
+		</dict>
+		<key>ABBB4A22-D780-4AB3-B946-4E4301212EAB</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>875</real>
+		</dict>
+		<key>F8B72355-D5F2-4CF2-8465-F0DD3DAFC685</key>
+		<dict>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>amx</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword to trigger the workflow</string>
+			<key>label</key>
+			<string>Main Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>main_keyboard</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>amxw</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>This keyword is used to transform a word, or multiple words, into the aeronautic phonetic alphabet</string>
+			<key>label</key>
+			<string>Keyword to translate in alphabet</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>return_word</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>alphabet_en</key>
+		<string>[["A","Alpha"],["B","Bravo"],["C","Charlie"],["D","Delta"],["E","Echo"],["F","Foxtrot"],["G","Golf"],["H","Hotel"],["I","India"],["J","Juliett"],["K","Kilo"],["L","Lima"],["M","Mike"],["N","November"],["O","Oscar"],["P","Papa"],["Q","Quebec"],["R","Romeo"],["S","Sierra"],["T","Tango"],["U","Uniform"],["V","Victor"],["W","Whiskey"],["X","X-ray"],["Y","Yankee"],["Z","Zulu"]]
+</string>
+		<key>alphabet_es</key>
+		<string>[["A","Alfa"],["B","Bravo"],["C","César"],["D","Delta"],["E","Eco"],["F","Foxtrot"],["G","Golf"],["H","Hotel"],["I","India"],["J","Julieta"],["K","Kilo"],["L","Lima"],["M","Metro"],["N","Noviembre"],["O","Oscar"],["P","Papá"],["Q","Quebec"],["R","Romeo"],["S","Sierra"],["T","Tango"],["U","Uniforme"],["V","Víctor"],["W","Whiskey"],["X","X-ray"],["Y","Yankee"],["Z","Zulú"]]
+</string>
+	</dict>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string>https://rodrigogarcia.com.mx</string>
+</dict>
+</plist>
