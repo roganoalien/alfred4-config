@@ -1554,7 +1554,7 @@ echo -n "${target_file}"</string>
 	<key>readme</key>
 	<string>## Setup
 
-Reveal the Helper app in the Finder via the `:mangahelper` keyword. This is enough for make macOS to become aware of it and set an identifier for CBZ files.
+Reveal the Helper app in the Finder via the `:mangahelper` keyword. This is enough for macOS to become aware of it and set an identifier for CBZ files.
 
 ![Show helper app in Finder](images/about/helper.png)
 
@@ -1895,7 +1895,7 @@ Merge different chapters into a single file via the `Merge Chapters` Universal A
 	<key>userconfigurationconfig</key>
 	<array/>
 	<key>version</key>
-	<string>25.1</string>
+	<string>25.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/manga-reader-workflow/</string>
 </dict>

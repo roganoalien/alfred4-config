@@ -6,11 +6,11 @@
 	<string>com.vitorgalvao.alfred.downloadmedia</string>
 	<key>connections</key>
 	<dict>
-		<key>05D66076-BBF0-42B3-AACE-3395B291DCB8</key>
+		<key>24B8A81E-9901-45A9-B7BC-3D4134C8675A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6A286F10-FD49-4463-9540-0EECBE45438D</string>
+				<string>B7A122F2-DA1A-4CF7-9990-9F4614C960CC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -19,11 +19,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>24B8A81E-9901-45A9-B7BC-3D4134C8675A</key>
+		<key>2BACFF19-7459-42F6-B8F4-6CFCA9B3CAFF</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B7A122F2-DA1A-4CF7-9990-9F4614C960CC</string>
+				<string>F43FB5B8-4078-449C-9631-FE56025810D3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -59,7 +59,18 @@
 			</dict>
 		</array>
 		<key>6A286F10-FD49-4463-9540-0EECBE45438D</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2BACFF19-7459-42F6-B8F4-6CFCA9B3CAFF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>822C7F03-3A3A-4842-8C03-72F2D4096BF0</key>
 		<array>
 			<dict>
@@ -77,7 +88,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6A286F10-FD49-4463-9540-0EECBE45438D</string>
+				<string>BFD78A9F-0242-46A6-982A-9DA120AB8328</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>84E17C6A-F77E-4F2A-B7AD-DA0793F8C416</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B50278C3-F6C2-4103-A37B-B0901BE5723C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -120,6 +144,47 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>95D9599B-65C1-410E-85B5-BB36F1676000</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>84E17C6A-F77E-4F2A-B7AD-DA0793F8C416</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A5F1E477-6809-406A-A350-931125A6F529</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A286F10-FD49-4463-9540-0EECBE45438D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B50278C3-F6C2-4103-A37B-B0901BE5723C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E2D161C0-42E9-4D32-BDE6-FED4C715066F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -193,7 +258,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>05D66076-BBF0-42B3-AACE-3395B291DCB8</string>
+				<string>A5F1E477-6809-406A-A350-931125A6F529</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -232,7 +297,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6A286F10-FD49-4463-9540-0EECBE45438D</string>
+				<string>3E1231DB-0667-46DE-9AD3-523D8837F824</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -241,11 +306,41 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E2D161C0-42E9-4D32-BDE6-FED4C715066F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F9B90B13-958B-44A4-A9B0-9B92E4C6FEE4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F43FB5B8-4078-449C-9631-FE56025810D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>95D9599B-65C1-410E-85B5-BB36F1676000</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>0BC66730-6EE7-4E58-B4AA-61C984B7ED91</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FD70A114-2767-4782-8D5F-86AC4B3BB8B3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>05D66076-BBF0-42B3-AACE-3395B291DCB8</string>
+				<string>A5F1E477-6809-406A-A350-931125A6F529</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -290,9 +385,9 @@
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
-				<false/>
+				<true/>
 				<key>variables</key>
 				<dict>
 					<key>media_type</key>
@@ -305,6 +400,139 @@
 			<string>3E1231DB-0667-46DE-9AD3-523D8837F824</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>{var:download_video_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Grabbing URLs…</string>
+				<key>script</key>
+				<string>function runCommand(...arguments) {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/env")
+  task.arguments = arguments
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return stringOut
+}
+
+const browserRaw = runCommand($("~/Library/Application Support/Alfred/Automation/Tasks/com.alfredapp.automation.core/safari/.common/tabs-current").stringByExpandingTildeInPath.js,
+  "frontmost_browser", "0", "json")
+
+const clipboardRaw = runCommand("/usr/bin/sqlite3",
+  "-newline", "",
+  $("~/Library/Application Support/Alfred/Databases/clipboard.alfdb").stringByExpandingTildeInPath.js,
+  "SELECT item FROM (SELECT item, MAX(ts) FROM clipboard WHERE dataType = 0 AND item LIKE \"http%\")")
+
+let scriptFilterItems = []
+
+if (browserRaw.length &gt; 0) {
+  const browserParsed = JSON.parse(JSON.parse(browserRaw)["alfredworkflow"]["arg"])
+
+  if (browserParsed.url) scriptFilterItems.push({
+    title: browserParsed.title,
+    subtitle: browserParsed.url,
+    icon: { path: "images/browser.png" },
+    arg: browserParsed.url
+  })
+}
+
+if (clipboardRaw.length &gt; 0) {
+  scriptFilterItems.push({
+    title: "Clipboard URL",
+    subtitle: clipboardRaw,
+    icon: { path: "images/clipboard.png" },
+    arg: clipboardRaw
+  })
+}
+
+if (scriptFilterItems.length === 0) {
+  JSON.stringify({ items: [{
+    title: "No URL found",
+    subtitle: "Did not find a URL in the clipboard or a supported browser",
+    valid: false
+  }]})
+} else {
+  JSON.stringify({ items: scriptFilterItems })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Download video from popular sources</string>
+				<key>title</key>
+				<string>Download Video</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DC74421D-631A-44B1-AC86-ED7793CADE26</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>822C7F03-3A3A-4842-8C03-72F2D4096BF0</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -326,51 +554,6 @@
 			<string>B729925C-D828-4631-9988-67499E05791C</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>media_type</key>
-					<string>audio</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>BFD78A9F-0242-46A6-982A-9DA120AB8328</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>822C7F03-3A3A-4842-8C03-72F2D4096BF0</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -400,53 +583,22 @@ puts get_title_url[:url]</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>{var:download_video_keyword}</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Grabbing frontmost tab info and clipboard contents…</string>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/downmedia_functions.rb"
-
-show_options('video')</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>argument</key>
 				<string></string>
-				<key>subtext</key>
-				<string>Download video from popular sources</string>
-				<key>title</key>
-				<string>Download Video</string>
-				<key>type</key>
-				<integer>2</integer>
-				<key>withspace</key>
-				<false/>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>media_type</key>
+					<string>audio</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>DC74421D-631A-44B1-AC86-ED7793CADE26</string>
+			<string>BFD78A9F-0242-46A6-982A-9DA120AB8328</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -489,21 +641,74 @@ show_options('video')</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Grabbing frontmost tab info and clipboard contents…</string>
+				<string>Grabbing URLs…</string>
 				<key>script</key>
-				<string>require "#{Dir.pwd}/downmedia_functions.rb"
+				<string>function runCommand(...arguments) {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
 
-show_options('audio')</string>
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/env")
+  task.arguments = arguments
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return stringOut
+}
+
+const browserRaw = runCommand($("~/Library/Application Support/Alfred/Automation/Tasks/com.alfredapp.automation.core/safari/.common/tabs-current").stringByExpandingTildeInPath.js,
+  "frontmost_browser", "0", "json")
+
+const clipboardRaw = runCommand("/usr/bin/sqlite3",
+  "-newline", "",
+  $("~/Library/Application Support/Alfred/Databases/clipboard.alfdb").stringByExpandingTildeInPath.js,
+  "SELECT item FROM (SELECT item, MAX(ts) FROM clipboard WHERE dataType = 0 AND item LIKE \"http%\")")
+
+let scriptFilterItems = []
+
+if (browserRaw.length &gt; 0) {
+  const browserParsed = JSON.parse(JSON.parse(browserRaw)["alfredworkflow"]["arg"])
+
+  if (browserParsed.url) scriptFilterItems.push({
+    title: browserParsed.title,
+    subtitle: browserParsed.url,
+    icon: { path: "images/browser.png" },
+    arg: browserParsed.url
+  })
+}
+
+if (clipboardRaw.length &gt; 0) {
+  scriptFilterItems.push({
+    title: "Clipboard URL",
+    subtitle: clipboardRaw,
+    icon: { path: "images/clipboard.png" },
+    arg: clipboardRaw
+  })
+}
+
+if (scriptFilterItems.length === 0) {
+  JSON.stringify({ items: [{
+    title: "No URL found",
+    subtitle: "Did not find a URL in the clipboard or a supported browser",
+    valid: false
+  }]})
+} else {
+  JSON.stringify({ items: scriptFilterItems })
+}</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Download audio from popular sources</string>
 				<key>title</key>
 				<string>Download Audio</string>
 				<key>type</key>
-				<integer>2</integer>
+				<integer>7</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -525,8 +730,8 @@ show_options('audio')</string>
 				<string>require "#{Dir.pwd}/downmedia_functions.rb"
 
 save_pid(Process.pid)
-save_query(ARGV[0], ENV['media_type'], ENV['add_to_watchlist'], ENV['full_playlist'])
-download_url(ARGV[0], ENV['media_type'], ENV['add_to_watchlist'], ENV['full_playlist'])</string>
+save_query(ARGV[0], ENV['media_type'])
+download_url(ARGV[0], ENV['media_type'])</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -559,20 +764,142 @@ download_url(ARGV[0], ENV['media_type'], ENV['add_to_watchlist'], ENV['full_play
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
+				<key>concurrently</key>
 				<false/>
-				<key>variables</key>
-				<dict>
-					<key>full_playlist</key>
-					<string>false</string>
-				</dict>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>function status(isInstalled) {
+  return JSON.stringify({ alfredworkflow: {
+    variables: { watch_list_installed: isInstalled }
+  }})
+}
+
+function run(argv) {
+  try {
+    argv.forEach(file =&gt; Application("com.runningwithcrayons.Alfred").runTrigger("add_file_to_watchlist", { inWorkflow: "com.vitorgalvao.alfred.watchlist", withArgument: file }))
+    return status(true)
+  } catch {
+    return status(false)
+  }
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>05D66076-BBF0-42B3-AACE-3395B291DCB8</string>
+			<string>84E17C6A-F77E-4F2A-B7AD-DA0793F8C416</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://alfred.app/workflows/vitor/watch-list/</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F9B90B13-958B-44A4-A9B0-9B92E4C6FEE4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Aborted</string>
+						<key>uid</key>
+						<string>0BC66730-6EE7-4E58-B4AA-61C984B7ED91</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Successful</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>2BACFF19-7459-42F6-B8F4-6CFCA9B3CAFF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Install From the Alfred Gallery</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>The Watch List workflow is required to play a stream through it.</string>
+				<key>title</key>
+				<string>Watch List Not Installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>E2D161C0-42E9-4D32-BDE6-FED4C715066F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:watch_list_installed}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Missing Watch List</string>
+						<key>uid</key>
+						<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>B50278C3-F6C2-4103-A37B-B0901BE5723C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -580,9 +907,9 @@ download_url(ARGV[0], ENV['media_type'], ENV['add_to_watchlist'], ENV['full_play
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
-				<false/>
+				<true/>
 				<key>variables</key>
 				<dict>
 					<key>media_type</key>
@@ -593,6 +920,70 @@ download_url(ARGV[0], ENV['media_type'], ENV['add_to_watchlist'], ENV['full_play
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>C80AD651-BCAF-4B86-869A-D4D847A2379B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:add_to_watchlist}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Use WatchList</string>
+						<key>uid</key>
+						<string>0BC66730-6EE7-4E58-B4AA-61C984B7ED91</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F43FB5B8-4078-449C-9631-FE56025810D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<true/>
+				<key>outputas</key>
+				<integer>1</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>95D9599B-65C1-410E-85B5-BB36F1676000</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict/>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>A5F1E477-6809-406A-A350-931125A6F529</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -615,9 +1006,9 @@ download_url(ARGV[0], ENV['media_type'], ENV['add_to_watchlist'], ENV['full_play
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
-				<false/>
+				<true/>
 				<key>variables</key>
 				<dict>
 					<key>media_type</key>
@@ -689,6 +1080,8 @@ show_progress</string>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Shows progress of the current DownMedia download</string>
 				<key>title</key>
@@ -791,13 +1184,9 @@ cleanup_tmp_files</string>
 	<key>readme</key>
 	<string>## Usage
 
-Download video from [a plethora of online sources](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md) via the `dv` keyword. Download audio with `da`. Your clipboard and frontmost browser tab are checked for links.
+Download video from the most recent URL in your [Clipboard History](https://www.alfredapp.com/help/features/clipboard/) or the URL in the frontmost browser tab via the `dv` keyword. Download audio with `da`.
 
 ![Download video](images/about/dv.png)
-
-* &lt;kbd&gt;↩&lt;/kbd&gt;: Download.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Download full playlist.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Toggle adding to [Watch List](https://alfred.app/workflows/vitor/watch-list).
 
 Alternatively, download with the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/).
 
@@ -807,23 +1196,23 @@ Check download progress via the `dp` keyword.
 
 ![Download progress](images/about/dp.png)
 
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Restart download.
-* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Cancel.</string>
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Restart download.
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Cancel.</string>
 	<key>uidata</key>
 	<dict>
-		<key>05D66076-BBF0-42B3-AACE-3395B291DCB8</key>
-		<dict>
-			<key>xpos</key>
-			<real>615</real>
-			<key>ypos</key>
-			<real>545</real>
-		</dict>
 		<key>24B8A81E-9901-45A9-B7BC-3D4134C8675A</key>
 		<dict>
 			<key>xpos</key>
 			<real>250</real>
 			<key>ypos</key>
 			<real>275</real>
+		</dict>
+		<key>2BACFF19-7459-42F6-B8F4-6CFCA9B3CAFF</key>
+		<dict>
+			<key>xpos</key>
+			<real>1380</real>
+			<key>ypos</key>
+			<real>535</real>
 		</dict>
 		<key>3B69F416-A08B-4618-99B6-E2AED211C9D8</key>
 		<dict>
@@ -862,6 +1251,17 @@ Check download progress via the `dp` keyword.
 			<key>ypos</key>
 			<real>395</real>
 		</dict>
+		<key>84E17C6A-F77E-4F2A-B7AD-DA0793F8C416</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>Add to Watch List</string>
+			<key>xpos</key>
+			<real>1645</real>
+			<key>ypos</key>
+			<real>515</real>
+		</dict>
 		<key>879AF67B-0DE2-4574-A27B-A502D1E8A123</key>
 		<dict>
 			<key>xpos</key>
@@ -876,6 +1276,20 @@ Check download progress via the `dp` keyword.
 			<key>ypos</key>
 			<real>35</real>
 		</dict>
+		<key>95D9599B-65C1-410E-85B5-BB36F1676000</key>
+		<dict>
+			<key>xpos</key>
+			<real>1570</real>
+			<key>ypos</key>
+			<real>545</real>
+		</dict>
+		<key>A5F1E477-6809-406A-A350-931125A6F529</key>
+		<dict>
+			<key>xpos</key>
+			<real>670</real>
+			<key>ypos</key>
+			<real>545</real>
+		</dict>
 		<key>A8F4BBFD-E8A8-47D3-AE33-A8823E7CC291</key>
 		<dict>
 			<key>xpos</key>
@@ -883,12 +1297,21 @@ Check download progress via the `dp` keyword.
 			<key>ypos</key>
 			<real>875</real>
 		</dict>
+		<key>B50278C3-F6C2-4103-A37B-B0901BE5723C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>1805</real>
+			<key>ypos</key>
+			<real>545</real>
+		</dict>
 		<key>B729925C-D828-4631-9988-67499E05791C</key>
 		<dict>
 			<key>xpos</key>
 			<real>495</real>
 			<key>ypos</key>
-			<real>155</real>
+			<real>275</real>
 		</dict>
 		<key>B7A122F2-DA1A-4CF7-9990-9F4614C960CC</key>
 		<dict>
@@ -916,7 +1339,7 @@ Check download progress via the `dp` keyword.
 			<key>xpos</key>
 			<real>670</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>305</real>
 		</dict>
 		<key>C80AD651-BCAF-4B86-869A-D4D847A2379B</key>
 		<dict>
@@ -944,7 +1367,32 @@ Check download progress via the `dp` keyword.
 			<key>xpos</key>
 			<real>495</real>
 			<key>ypos</key>
-			<real>275</real>
+			<real>155</real>
+		</dict>
+		<key>E2D161C0-42E9-4D32-BDE6-FED4C715066F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>1880</real>
+			<key>ypos</key>
+			<real>535</real>
+		</dict>
+		<key>F43FB5B8-4078-449C-9631-FE56025810D3</key>
+		<dict>
+			<key>xpos</key>
+			<real>1495</real>
+			<key>ypos</key>
+			<real>545</real>
+		</dict>
+		<key>F9B90B13-958B-44A4-A9B0-9B92E4C6FEE4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>2045</real>
+			<key>ypos</key>
+			<real>515</real>
 		</dict>
 		<key>FD70A114-2767-4782-8D5F-86AC4B3BB8B3</key>
 		<dict>
@@ -1117,7 +1565,7 @@ Check download progress via the `dp` keyword.
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>bestvideo[ext=mp4]+bestaudio[ext=m4a]/best</string>
+				<string>bestvideo*[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/bestvideo*+bestaudio/best</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -1147,7 +1595,7 @@ Check download progress via the `dp` keyword.
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Name format for downloaded files. Reference the yt-dlp Output Template documentation.</string>
 			<key>label</key>
 			<string>Title Template</string>
 			<key>type</key>
@@ -1155,32 +1603,9 @@ Check download progress via the `dp` keyword.
 			<key>variable</key>
 			<string>single_title_template</string>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string>%(playlist)s/%(playlist_index)s-%(title)s.%(ext)s</string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<false/>
-				<key>trim</key>
-				<true/>
-			</dict>
-			<key>description</key>
-			<string>Name format for downloaded files. Reference the yt-dlp Output Template documentation.</string>
-			<key>label</key>
-			<string>Playlist Title Template</string>
-			<key>type</key>
-			<string>textfield</string>
-			<key>variable</key>
-			<string>playlist_title_template</string>
-		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>2023.3</string>
+	<string>25.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/download-media-workflow/</string>
 </dict>

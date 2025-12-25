@@ -179,7 +179,7 @@
 	<key>description</key>
 	<string>Trigger CleanShot Actions from Alfred</string>
 	<key>disabled</key>
-	<true/>
+	<false/>
 	<key>name</key>
 	<string>CleanShot</string>
 	<key>objects</key>
@@ -453,7 +453,7 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>screens</string>
+				<string>cs</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -564,27 +564,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>cleanshot://{var:action}?filepath={query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -604,6 +583,27 @@ fi</string>
 			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>cleanshot://{var:action}?filepath={query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
